@@ -114,3 +114,5 @@ if __name__ == "__main__":
     print(f"Pior Modelo: {stats['pior_modelo']} ({stats['pior_acuracia']:.2f}%)")
     if 'correlacao_params_acuracia' in stats:
         print(f"Correlação entre Parâmetros e Acurácia: {stats['correlacao_params_acuracia']:.3f}")
+
+

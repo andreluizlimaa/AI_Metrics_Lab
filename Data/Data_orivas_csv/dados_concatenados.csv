@@ -1,0 +1,2665 @@
+Pergunta,Resposta
+O que são algoritmos?,"
+Um algoritmo é uma sequência de instruções bem definidas e organizadas que visam resolver um problema ou realizar uma tarefa específica. Na computação, os algoritmos são a base de todo o processo de resolução de problemas e são essenciais para o desenvolvimento de programas de software.
+
+Um algoritmo é como uma receita culinária: ele descreve passo a passo o que precisa ser feito para alcançar um resultado desejado. Assim como uma receita detalha os ingredientes necessários e as etapas para preparar um prato, um algoritmo descreve os passos necessários para resolver um problema computacional.
+
+**Definição 1:** ""É uma sequência lógica de passos que visa atingir um objetivo específico.""
+
+Características dos Algoritmos
+
+1. **Definição precisa**: Cada passo do algoritmo deve ser claramente definido e compreensível.
+1. **Entrada e Saída**: Um algoritmo geralmente recebe uma entrada (dados iniciais) e produz uma saída (resultado final) após executar todas as etapas.
+1. **Finitude**: O algoritmo deve ter um número finito de passos e deve eventualmente terminar, ou seja, deve chegar a uma conclusão em um tempo finito.
+1. **Eficiência**: Um algoritmo eficiente é aquele que resolve o problema de forma rápida e com uso mínimo de recursos.
+
+
+Exemplos de Algoritmos
+
+Algoritmo para Fazer um Sanduíche:
+1. Pegue duas fatias de pão.
+1. Espalhe manteiga em uma fatia de pão.
+1. Coloque queijo e presunto na fatia de pão com manteiga.
+1. Cubra com a segunda fatia de pão.
+1. Corte o sanduíche ao meio.
+1. Se quiser, adicione alface e tomate.
+
+Este é um algoritmo simples que descreve como fazer um sanduíche. Cada passo é claro e direto.
+
+Como chegar ao parque?
+
+1. Saia de casa em direção ao mercado
+1. Depois da farmácia, dobre à direita
+1. Conte 3 ruas e dobre à esquerda
+1. Ande 500 metros e você chegará ao parque
+
+Chegar pontualmente à aula de 7:00 horas
+1. Acordar às 5h30
+1. Tomar banho
+1. Tomar o café da manhã
+1. Pegar a mochila
+1. Sair para a parada de ônibus
+
+Algoritmo para contar até 10
+1. Comece com o número 1.
+1. Adicione 1 ao número atual.
+1. Se o número for menor ou igual a 10, repita o passo 2.
+1. Pare quando chegar a 10.
+1. Este algoritmo mostra como contar até 10 usando repetição.
+
+Exercício 1
+O pneu do carro furou, qual o algoritmo que você usaria para substituir o pneu furado?
+
+Introdução à Lógica
+
+* O que queremos dizer com “Tem lógica” ou “É lógico”
+* A lógica é o ramo da filosofia que cuida das regras do pensar correto.
+* Usar corretamente as leis do pensamento
+* Determinar operações válidas ou não
+* A lógica é um meio de garantir que nosso pensamento proceda corretamente a fim de chegar a conhecimentos verdadeiros (válidos)
+Colocar ordem no pensamento
+
+Exemplo 1
+* Todo mamífero é um animal
+* Todo cavalo é um mamífero
+* Logo, todo cavalo é um animal
+
+Exemplo 2
+* Daniela é mais jovem que Adriano
+* Carlos é mais velho que Daniela
+Logo:
+* Adriano é mais velho que Carlos (Falso)
+* Carlos é mais velho que Adriano (Falso)
+* **Daniela é a mais nova das 3 pessoas (Verdadeiro)**
+
+Exemplo 3
+* “Se o RU servir cuscuz hoje, então eu jantarei no RU”
+* “O RU serviu cuscuz”
+* Logo, eu jantei no RU
+
+Exemplo 4
+* Um **pastor** precisa transportar **um carneiro e dois fardos de capim** para o outro lado do rio
+* Ele possui um barco pequeno, que transporta **uma coisa de cada vez** (um carneiro ou um fardo de capim)
+* Se ele deixar o carneiro junto do capim em alguma das margens do rio, o carneiro come o capim
+
+[Slide da resposta do problema do pastor](https://docs.google.com/presentation/d/1YtX44dXYObqUFsdzCgRvY3sOjjj8UarzH5BIv_754AA/edit?usp=sharing)
+
+Sugestão de resolução:
+1. Levar o carneiro para a margem leste
+1. Voltar para a margem oeste
+1. Levar um fardo para margem leste
+1. Voltar com o carneiro para margem oeste
+1. Levar o segundo fardo para margem leste
+1. Voltar para margem oeste
+1. Levar o carneiro para margem leste
+
+Outros desafios de lógica
+* [Torre de Hanói](https://www.noas.com.br/ensino-fundamental-1/matematica/torre-de-hanoi/)
+* [Na Medida Certa](https://www.sitededicas.com.br/desafios-logicos-na-medida-certa.htm)
+
+
+Por que estudar lógica e algoritmos?
+* Aprender **lógica** é aprender a como **“pensar correto”** para resolver um problema
+* Uma sequência de passos é uma forma de explicar/organizar a solução para um problema
+
+**Definição 2:** **Algoritmo** é uma forma de expressar o raciocínio **lógico.**
+
+
+Exercício 2
+
+Veja abaixo o teste de QI japonês, conhecido como o problema da travessia do rio. O problema consiste em 8 pessoas que têm que atravessar um rio utilizando uma jangada (Fonte: http://www.japones.net.br/teste-de-qi-japones/).
+
+As oito pessoas são:
+* pai;
+* mãe;
+* dois filhos;
+* duas filhas;
+* um policial;
+* um prisioneiro.
+
+Para efetuar a travessia é necessário seguir algumas regras:
+* A jangada só pode carregar duas pessoas por vez;
+* Somente o pai, a mãe e o policial sabem manobrar a jangada;
+* Os filhos não podem ficar com a mãe na ausência do pai em nenhuma das margens do rio;
+* Os filhos não podem ser transportados pela mãe;
+* As filhas não podem ficar com o pai na ausência da mãe em nenhuma das margens do rio;
+* As filhas não podem ser transportadas pelo pai;
+* O prisioneiro não pode ficar com os membros da família na ausência do policial;
+
+Formas de representação de algoritmos
+
+Descrição Narrativa
+
+* Uso da linguagem natural: Português, inglês, espanhol, etc.;
+* Considera os passos mais importantes e pode servir de esboço para outras representações.
+* Temos a inconveniência da má interpretação, originando *ambiguidades* e *imprecisões*:
+* Para evitar más interpretações, a escrita do algoritmo deve ser mais detalhada:
+
+Exemplo 1
+* Chegar pontualmente na aula
+* Acordar às 5h30
+* Tomar banho
+* **Tomar o café da manhã**
+* Pegar a mochila
+* Sair para a parada de ônibus
+
+Exemplo 1 - Detalhado
+* Chegar pontualmente na aula
+* Acordar às 5h30
+* Tomar banho
+* **Tomar o café da manhã**
+* Pegar leite na geladeira e servir em um copo
+* Pegar uma fatia de queijo
+* Cortar um pão ao meio e colocar o queijo
+* Comer o sanduíche e tomar o leite
+* Pegar a mochila
+* Sair para a parada de ônibus
+
+
+Fluxograma
+
+![tabela-fluxograma](https://user-images.githubusercontent.com/19957124/122242073-68e3a680-ce99-11eb-95cc-bd6cf2c2f40a.jpg)
+
+Fonte da imagem: https://www.treinaweb.com.br/blog/conceitos-usados-no-aprendizado-de-programacao
+
+Exemplo de fluxograma para calcular a média a apartir das notas de três provas:
+
+![Fluxograma_algoritmo01](https://user-images.githubusercontent.com/19957124/122244222-17d4b200-ce9b-11eb-86c6-a8e6708b8d76.png)
+
+Fonte da imagem: [https://saulo.arisa.com.br/](https://saulo.arisa.com.br/wiki/index.php/Introdu%C3%A7%C3%A3o_%C3%A0_L%C3%B3gica_de_Programa%C3%A7%C3%A3o)
+
+
+
+Pseudocódigo
+
+* Estrutura semelhante às linguagens de programação, porem é uma forma rápida de expressar o algoritmo sem perder tempo com detalhes.
+* Mais didático e fácil compreensão
+
+Exemplo - Média de dois números
+
+```java
+inicio
+real n1,n2,r
+ler n1,n2
+r <- (n1 + n2) / 2.0
+escrever ""A média é: "", r
+fim
+```
+
+
+Linguagens de programação
+
+Linguagem padronizada para descrever instruções para um computador. Possui um conjunto de regras sintáticas e semânticas usadas para descrever algoritmos e não possui ambiguidades.
+
+Exemplo com a linguagem Javascript
+
+```javascript
+x = prompt(""Entre com x: "") // leitura de x
+y = prompt(""Entre com y: "") // leitura de y
+media = (parseFloat(x) + parseFloat(y))/2; // cálculo da média
+alert(""A média é ""+media) // escrita do resultado
+```
+
+
+Códigos com exemplos na página de LoP no GitHub:
+* https://github.com/ect-info/lop/tree/master/codigos
+* https://github.com/ect-info/lop
+* https://github.com/ect-info/codigos-jogo
+
+Outros exemplos
+* [Maior que 25](https://whimsical.com/maior-que-25-FYNih4GsfHeXh3tpEz3Min)
+* [Algoritmo representado em forma de um fluxograma](http://www.cristiancechinel.pro.br/my_files/algorithms/bookhtml/node15.html)
+
+Programação
+
+Aprender a programar é aprender a resolver problemas usando algoritmos e uma linguagem de programação. Aprender a dividir um problema grande em problemas pequenos resolvendo um problema por vez. Este curso de Lógica de Programação foca em resolver problemas matemáticos.
+
+Exercício 1
+
+Você está construindo uma piscina que mede 4,0 metros de largura, 9,0 metros de comprimento e 2,0 metros de profundidade. Para não gastar demais, você precisa calcular exatamente quantos azulejos serão necessários para toda a piscina. Considere que os azulejos medem 60 x 60 cm cada.
+* Qual a sequência de passos (o algoritmo) para resolver esse problema matemático?
+
+Solução 1:
+* Calcular quantos azulejos são necessários para cobrir toda a área da piscina.
+
+A solução anterior é muito abstrata. Não estão claras as ações necessárias para resolver o problema. É necessário um detalhamento maior.
+Solução 2:
+1. Calcular quantos azulejos são necessários no piso
+2. Calcular quantos azulejos são necessários em cada parede
+3. Somar o resultado dos passos 1 e 2
+
+Como calcular o passo 1?
+* Área total = 4 * 9 = 36m²
+* Área do azulejo = 0,6 * 0,6 = 0,36m²
+* Quantidade de azulejos = 36 / 0,36 = 100
+Essa solução usa azulejos quebrados.
+
+É possível aprimorar a resolução deste problema da seguinte forma. Para calcular quantos azulejos inteiros serão necessário basta proceder com o seguinte algoritmo:
+a. Calcular quantos azulejos são necessários na largura
+b. Calcular quantos azulejos são necessários no comprimento
+c. Multiplicar o resultado dos passos a) e b)
+
+Referências
+* [Livros](https://github.com/ect-info/lop/blob/master/bibliografia.md)
+* [Cursos online](https://github.com/ect-info/lop/blob/master/cursos_online.md)
+* [Outras referências](https://github.com/ect-info/lop/blob/master/referencias.md)
+
+Cursos Online
+* [Introdução a Programação da Khan Academy](https://pt.khanacademy.org/computing/computer-programming/programming)
+* [Introdução a Computação na Cursera](https://www.coursera.org/learn/ciencia-computacao-python-conceitos)
+* Slides de aulas da disciplina de Lógica de Porgramação da ECT-UFRN, consultados em 10/03/2022.
+* ChatGPT 3.5, https://chat.openai.com/, consultado em 22/02/2024.
+
+
+
+
+
+"
+O que é vetor? que trem é esse??,"
+Você tem dificuldade em entender como trabalhar com vetores em programação? Esta analogia talvez possa te colocar de volta nos “trilhos” da matéria...
+
+Se você já estudou estruturas de repetição, muito provavelmente conhece a estrutura “**for**”. Utilizamos ela como uma espécie de contador, que é executado uma certa quantidade de vezes. Quando o utilizamos, sabemos em que valor iremos começar e até onde temos que ir, por exemplo: **for( i = 0; i < 5; i++);**  Nesse caso, o **for** começará seu **i** em **0** e irá até um valor menor que **5**, sendo incrementado de **1** em **1** **( i++ ou i+1 )**. Nesse caso, os valores percorridos seriam: **0 , 1 , 2 , 3, 4**; (Perceba que, ele vai de zero até um valor menor que 5: **( i = 0; i < 5 )**.
+
+Após essa mini revisão, vamos unir o for aos vetores, que a partir de agora deixarão de ser vetores e passarão a ser trens.
+
+No for usamos uma variável para ir “contando” os valores, no exemplo acima, a variável utilizada foi o i. Que a partir de agora começaremos a trata-la como sendo o maquinista de um trem.
+
+Imagine a seguinte situação, você está trabalhando para uma companhia de trens e sua função é contar quantas pessoas vem nesse trem, para isso, você precisa fazer a somatória de pessoas em cada vagão. Você conta com o maquinista do trem para que ele pegue o número de pessoas que está dentro de cada vagão. Digamos que acabou de chegar um trem com 5 vagões:
+
+**trem[5] = {15, 9, 7, 2, 8};
+
+Lembre que a numeração dos vagões começa em 0. Devemos agora, fazer nosso trabalho, precisamos da quantidade total de pessoas nesse trem. Então, dizemos para o maquinista (o nosso **i**), vá do vagão 0 até o vagão 4, de um em 1, e me informe a quantidade de pessoas que tem em cada vagão. Então o maquinista começa;
+
+(Os vagões serão representados por colchetes [ ])
+
+O maquinista começa em 0 e vai até o 4º vagão, de um em um, logo:
+
+**for(i = 0; i < 5; i++)**
+
+Quando **i** = **0**: No [ i ] do trem: 15 pessoas;
+
+Quando **i** = **1**: No [ i ] do trem: 9 pessoas;
+
+Quando **i** = **2**: No [ i ] do trem: 7 pessoas;
+
+Quando **i** = **3**: No [ i ] do trem: 2 pessoas;
+
+Quando **i** = **4**: No [ i ] do trem: 8 pessoas.
+
+
+Agora, trabalharemos a mesma situação utilizando programação, com o mesmo exemplo, temos um trem e queremos a somatória de pessoas que estão nele.
+
+De acordo com o que combinamos mais a cima, a partir de agora vetores são trens, e a nossa variável do for será o maquinista, tendo isso em mente, vamos ao código.
+
+Primeiro em JavaScript e depois em C++.
+
+(Código JavaScript)
+
+var Trem = [15, 9, 7, 2, 8];	// Aqui temos nosso trem, de 5 vagões.
+var somatoria = 0;	// Criamos uma variável para armazenar a somatória.
+
+// Como o trem tem 5 vagões, precisamos dizer para o maquinista ( i ), que ele deve começar no vagão 0,
+e ir até o vagão 4, logo:
+for( var i = 0; i < 5; i++) ou também é correto: for( var i = 0; i <= 4; i++)
+
+for( var i = 0; i < 5; i++){
+somatoria = somatoria + Trem[  ]  ← Leia a OBS1
+}
+
+OBS1: Entre os colchetes, precisamos informar qual é o vagão que queremos acessar, agora, quem ficou responsável de percorrer
+todos os vagões? Quem ficou responsável por ir do 0 ao 4º vagão? Exatamente, o maquinistas, o nosso ( i ). Logo:
+
+for( var i = 0; i < 5; i++){
+somatoria = somatoria + Trem[i] ;
+}
+
+alert(somatoria);	// A resposta esperada é 41;
+
+(Código C++)
+
+int Trem[5] = {15, 9, 7, 2, 8};	// Aqui temos nosso trem, de 5 vagões.
+int somatoria = 0;	// Criamos uma variável para armazenar a somatória.
+
+// Como o trem tem 5 vagões, precisamos dizer para o maquinista ( i ), que ele deve começar no vagão 0, e ir até o vagão 4,
+logo:
+for( int i = 0; i < 5; i++) ou também é correto: for( int i = 0; i <= 4; i++)
+
+for( int i = 0; i < 5; i++){
+somatoria = somatoria + Trem[  ]  ← Leia a OBS1
+}
+
+OBS1: Entre os colchetes, precisamos informar qual é o vagão que queremos acessar, agora, quem ficou responsável de percorrer
+todos os vagões? Quem ficou responsável por ir do 0 ao 4º vagão? Exatamente, o maquinistas, o nosso ( i ). Logo:
+
+for( int i = 0; i < 5; i++){
+somatoria = somatoria + Trem[i] ;
+}
+
+cout << somatoria;	// A resposta esperada é 41;"
+"O que são as Mecânicas Games?","As explicações partem do princípio que o leitor já conhece o mínimo dá biblioteca e sabe executar algumas linhas simples de código, como criar uma elipse ou movimentar uma forma usando o teclado, por exemplo.”**
+
+**Tópicos a serem explanados: Gravidade, Pulo, Colisão, Empurrar Objetos.**
+
+**Durante as explicações, quando houver menção a um ”player”, estarei me referindo a elipse branca.**
+
+**Mecânicas.**
+
+As leis da Física mandam e desmandam em nosso mundo e várias vezes nos deparamos com situações em que são necessárias aplicar essas
+leis em diferentes tipos de realidade. Aqui, você descobrirá como aplicar física em um jogo feito em JavaScript utilizando a biblioteca
+P5.js.
+
+**Gravidade**:
+
+Para as exemplificações teremos o seguinte ambiente:
+
+var g = 0.2; // Gravidade
+var fy = 0; // Força resultante em Y
+var px = 100; // Posição do player no eixo X
+var py = -100; // Posição do player no eixo Y
+var speed = 4; // Velocidade de deslocamento do Player no eixo Y
+
+function setup() {
+createCanvas(600, 400);
+}
+
+function draw() {
+background(0);
+
+if(keyIsDown(LEFT_ARROW)){
+px = px - speed;
+}
+if(keyIsDown(RIGHT_ARROW)){
+px = px + speed;
+}
+
+ellipse(px,py,30,30);
+}
+
+Com isso, você deve obter uma tela preta e uma elipse que não será visível pois ela está na posição -100.
+
+Em um game de plataforma, é importante que exista gravidade, pois o player depende disso para percorrer as plataformas e tudo mais. Por enquanto, ignoraremos todo o material escrito por Isaac Newton e entenderemos a gravidade aqui simplesmente como uma força que fará o objeto mover (cair) em direção ao chão.
+
+
+Como já dito, a gravidade é uma força que atua sobre o player e o faz mover em direção ao chão (Para baixo, no caso). Então, seguindo essa ideia, basta fazer com que a posição em **y** do player seja alterada, de forma que seja sempre somado um valor a sua posição atual.
+
+Então:
+
+function draw() {
+background(0);
+
+if(keyIsDown(LEFT_ARROW)){
+px = px - speed;
+}
+if(keyIsDown(RIGHT_ARROW)){
+px = px + speed;
+}
+
+py = py + g; // Posição em y do player sendo incrementada pela gravidade.
+
+ellipse(px,py,30,30);
+}
+
+Com isso, o player agora deve estar caindo e atravessando a tela **(DE FORMA BEM LENTA, AGUARDE UM POUCO)**. Porém, não é interessante alterar a posição do player diretamente: **py = py + g;**, pois haverão mais forças a serem aplicadas em y, a gravidade não será a única. O correto é calcular as forças resultantes e só depois aplicar na posição. Para calcular as forças em y, utilizaremos a variável **fy**. Logo:
+
+function draw() {
+backgroun(0);
+
+if(keyIsDown(LEFT_ARROW)){
+px = px - speed;
+}
+if(keyIsDown(RIGHT_ARROW)){
+px = px + speed;
+}
+
+fy = fy + g; // Calculando as forças resultantes em y
+py = py + fy; // E alterando a posição com base na força resultante
+ellipse(px,py,30,30);
+}
+
+Por enquanto, a existência do **fy** parece desnecessária, mas quando for introduzido mecânicas de pulo ou dash, ela será melhor compreendida.
+
+Agora, o player ainda está passando pela tela, precisamos adicionar um chão.
+
+No nosso mundo, a força normal atua cancelando a força peso e isso faz com que a gente não atravesse o chão.
+Então, no game será necessário algo que faça o player parar, que ele não atravesse determinada posição, aqui não temos as propriedades físicas do nosso mundo, porém, podemos trabalhar o conceito de uma outra forma. Como dito, precisamos fazer com que o player pare e não passe de determinada posição, e se tentarmos algo como:
+
+if(posição_y_do_player  determinada_posição){
+pare_de_cair.
+}
+
+Ou seja, quando o player chegasse a aquela posição ele iria parar de cair, mas, como eu digo pra ele parar de cair?
+
+Simples, pegamos a ideia da normal, a normal atua para cancelar a força exercida em **Y**, logo, basta dizer que a força em **Y** agora é 0.
+
+Como já dito, o chão no jogo será uma posição da qual o player não passará, ou seja, se o player alcançar aquela posição, a força exercida sobre ele (**fy**) deve ser zerada, logo: (**Para demonstração foi escolhido a posição 360 como chão**). É necessário corrigir a posição do plaer, caso tenha sido detectado que ele pasosu do chão, ele zere a força em y exercida e corrija sua posição para o valor determinado para ser o chão (360 nesse caso).
+
+function draw() {
+background(0);
+
+if(keyIsDown(LEFT_ARROW)){
+px = px - speed;
+}
+if(keyIsDown(RIGHT_ARROW)){
+px = px + speed;
+}
+
+fy = fy + g;
+if(py  360){ // if(posição_y_do_player  determinada_posição)
+fy = 0; // Anula a força atuando sobre o player (Funciona como a força Normal)
+py = 360; // Corrige a posição do Player
+}
+py = py + fy;
+ellipse(px,py,30,30);
+}
+
+**Pulo**:
+
+Para exemplificações, teremos o seguinte ambiente:
+
+var g = 0.2;
+var fy = 0;
+var px = 100;
+var py = -100;
+var speed = 4;
+
+function setup() {
+createCanvas(600, 400);
+}
+
+function draw() {
+background(0);
+
+if(keyIsDown(LEFT_ARROW)){
+px = px - speed;
+}
+if(keyIsDown(RIGHT_ARROW)){
+px = px + speed;
+}
+
+fy = fy + g;
+if(py = 360){
+fy = 0;
+py = 360;
+}
+py = py + fy;
+ellipse(px,py,30,30);
+}
+
+Agora que temos um chão definido, vamos debater um pouco sobre a ideia de pular, na nossa realidade, para pularmos, aplicamos uma força no chão e ele nos devolve essa força nos fazendo ""subir"". Não iremos trabalhar com a ideia da ""Normal"" ou algo assim, será mais simplista.
+
+Do que foi dito anteriormente, podemos tomar como base que, parar pularmos, precisamos estar no chão.
+
+Então, se em algum momento eu quiser fazer o player pular, verificamos se ele esta no chão (Ou seja, se o player se encontra na posição pré definida como chão que foi abordada anteriormente), e se sim, aplicamos uma força negativa em **fy**. (Lembre que aqui, o eixo **y** é **invertido**).
+
+Logo, temos que:
+
+function draw() {
+background(0);
+
+if(keyIsDown(LEFT_ARROW)){
+px = px - speed;
+}
+if(keyIsDown(RIGHT_ARROW)){
+px = px + speed;
+}
+
+fy = fy + g;
+if(py = 360){
+fy = 0;
+py = 360;
+}
+
+if(keyIsDown(UP_ARROW) && py = 360){
+fy = fy - 7;
+}
+
+py = py + fy;
+ellipse(px,py,30,30);
+}
+
+
+**Colisão**:
+
+O código no final deste tópico possui uma exemplificação dos conceitos aplicados abaixo:
+
+**OBSI**: A colisão entre 2 objetos pode ser verificada quando a distância entre eles é igual a soma de seus raios.
+
+**OBSII**: Para isso ser verdade, a posição dos objetos deve ser calculada a partir do centro.
+
+**OBSIII**: Em P5, apenas as elipses possuem essa característica, retângulos e imagens tem sua posição calculada a partir do canto
+superior esquerdo. Para usar o centro dos retângulos e nas imagens use dentro do draw os seguintes comandos: **rectMode**(CENTER) e
+**imageMode**(CENTER).
+
+Para as exemplificações teremos o seguinte ambiente:
+
+var x1 = 0, x2 = 400;
+
+function setup() {
+createCanvas(400, 400);
+}
+
+function draw() {
+background(220);
+ellipse(x1,100,50,50);
+ellipse(x2,100,30,30);
+
+x1 += 1;
+x2 -= 1;
+}
+
+P5 possui uma função (**dist()**) que calcula a distância entre 2 objetos, ela recebe como parâmetro o X e o Y de dois objetos e retorna a  distância entre eles. Como já dito anteriormente; a colisão entre 2 objetos pode ser verificada quando a distância entre eles é igual a soma de seus raios. Logo, precisamos verificar se a distância entre as 2 elipses é menor que 40, pois, a elipse da direita possui raio = 25 e a elipse da esquerda possui raio = 15.
+
+function draw() {
+background(220);
+ellipse(x1,100,50,50);
+ellipse(x2,100,30,30);
+
+if(dist(x1,100,x2,100) < 40){
+fill(255,0,0);
+}else{
+x1 += 1;
+x2 -= 1;
+}
+}
+
+Com isso, as 2 elipses devem estar mudando de cor e parando de se mover ao se tocarem.
+
+**Exemplificação Geral:**
+
+var x1 = 0, x2 = 400;
+var x3 = 0, x4 = 400;
+var x5 = 0, x6 = 400;
+
+function setup() {
+createCanvas(400, 400);
+}
+
+function draw() {
+background(220);
+
+fill(255);
+text('Colisão entre elipses: ', 0, 15);
+if(dist(x1,50,x2,50) < 40){
+fill(255,0,0);
+}else{
+x1 += 1;
+x2 -= 1;
+}
+ellipse(x1,50,50,50);
+ellipse(x2,50,30,30);
+
+rectMode(CORNER);
+fill(255);
+text('Colisão entre retângulos NÃO CENTRADOS: ', 0, 115);
+if(dist(x3,150,x4,150) < 40){
+fill(255,0,0);
+}else{
+x3 += 1;
+x4 -= 1;
+}
+rect(x3,130,50,50);
+rect(x4,130,30,30);
+
+rectMode(CENTER);
+fill(255);
+text('Colisão entre retângulos CENTRADOS: ', 0, 215);
+if(dist(x5,250,x6,250) < 40){
+fill(255,0,0);
+}else{
+x5 += 1;
+x6 -= 1;
+}
+rect(x5,250,50,50);
+rect(x6,250,30,30);
+}
+
+**Empurrar Objetos**:
+
+**OBSI**: Esse parte **NÃO** foi exemplificada em um game de plataforma, porém, **ELE FUNCIONA COM GAMES DE PLATAFORMA TAMBÉM!**
+
+Para as exemplificações teremos o seguinte ambiente:
+
+var px = 100;
+var py = 100;
+var pr = 30;
+var speed = 5;
+var fx = 0;
+var fy = 0;
+
+var enemy_X = 0;
+var enemy_Y = 0;
+var enemy_R = 30;
+
+function setup() {
+createCanvas(600, 400);
+enemy_X = random(50,550);
+enemy_Y = random(50,350);
+}
+
+function draw() {
+background(0);
+
+fx = 0;
+fy = 0;
+if(keyIsDown(LEFT_ARROW)){
+fx = -speed;
+}
+if(keyIsDown(RIGHT_ARROW)){
+fx = +speed;
+}
+if(keyIsDown(UP_ARROW)){
+fy = -speed;
+}
+if(keyIsDown(DOWN_ARROW)){
+fy = +speed;
+}
+px = px + fx;
+py = py + fy;
+fill(255);
+ellipse(px,py,pr,pr);
+
+fill(255,0,0);
+ellipse(enemy_X,enemy_Y,enemy_R,enemy_R);
+}
+
+**OBSII**: Perceba que, na movimentação no eixo **X** do player, foi utilizado o conceito de força explicado no tópico referente a gravidade. Agora, existe uma força (**fx**) que faz o player se mover no eixo **X**.
+
+Imagine a seguinte situação, há um objeto a sua frente e você deseja move-lo, tira-lo do lugar, o que você faz?
+
+Você o empurra, obviamente.
+
+Mas, o que significa esse ""empurrar""? Significa que você aplica uma força sobre o objeto. E em que direção é essa força? Na direção em que eu estiver fazendo força.
+
+Então, para mover um objeto, bastaria eu aplicar sobre ele uma força que tivesse a direção deseja...
+
+Tendo isso em mente, se eu quiser fazer meu player empurrar algo, basta de dizer que, se ele estiver colidindo com objeto, faça força sobre ele, ou seja, que some em seus eixos as forças atuantes sobre o player.
+
+Então:
+
+function draw() {
+background(0);
+
+fx = 0;
+fy = 0;
+if(keyIsDown(LEFT_ARROW)){
+fx = -speed;
+}
+if(keyIsDown(RIGHT_ARROW)){
+fx = +speed;
+}
+if(keyIsDown(UP_ARROW)){
+fy = -speed;
+}
+if(keyIsDown(DOWN_ARROW)){
+fy = +speed;
+}
+px = px + fx;
+py = py + fy;
+fill(255);
+ellipse(px,py,pr,pr);
+
+
+var soma_raios = (pr+enemy_R)/2;
+var distance = dist(px,py,enemy_X,enemy_Y)
+if(distance < soma_raios){
+enemy_X = enemy_X + fx;
+enemy_Y = enemy_Y + fy;
+}
+fill(255,0,0);
+ellipse(enemy_X,enemy_Y,enemy_R,enemy_R);
+}"
+Introdução ao javascript?,"
+Neste curso vamos focar na Linguagem de Programação JavaScript. Esta linguagem utiliza um programa interpretador para a sua execução. Uma linguagem de programação é uma linguagem formal que permite que os programadores comuniquem instruções para um computador. Ela é composta por um conjunto de regras sintáticas e semânticas que definem como essas instruções devem ser escritas e interpretadas. A principal função de uma linguagem de programação é permitir que os programadores desenvolvam software, que são conjuntos de instruções que direcionam o funcionamento de um computador para realizar uma determinada tarefa ou resolver um problema específico.
+
+Aqui estão algumas características importantes das linguagens de programação:
+* **Abstração:** As linguagens de programação oferecem abstrações que permitem aos programadores expressar suas intenções em um nível mais alto, sem se preocupar com os detalhes específicos da implementação de hardware.
+* **Expressividade:** As linguagens de programação fornecem uma variedade de construções, como variáveis, operadores, estruturas de controle e funções, que permitem aos programadores expressar uma ampla gama de lógica e comportamento em seus programas.
+* **Portabilidade:** As linguagens de programação podem ser projetadas para serem portáveis, o que significa que os programas escritos em uma determinada linguagem podem ser executados em diferentes plataformas de hardware e sistemas operacionais sem a necessidade de modificação.
+* **Facilidade de Manutenção:** As linguagens de programação são projetadas para facilitar a manutenção e modificação de software ao longo do tempo. Isso inclui recursos como modularidade, encapsulamento e legibilidade do código.
+* **Eficiência:** As linguagens de programação podem variar em eficiência, dependendo de fatores como tempo de execução, uso de recursos do sistema e capacidade de otimização do compilador ou interpretador.
+
+Uma linguagem de programação interpretada é aquela na qual o código-fonte é executado linha por linha por um programa chamado ""interpretador"". Em outras palavras, o código-fonte é traduzido para instruções executáveis pelo interpretador durante o tempo de execução do programa. Linguagens interpretadas permitem aos programadores escrever, testar e executar código de maneira rápida e eficiente, tornando o processo de desenvolvimento mais acessível e flexível.
+
+Principais pontos:
+* **Execução em tempo real:** O código é lido e executado linha por linha, sem a necessidade de compilação prévia.
+* **Portabilidade:** Os programas são facilmente transportáveis entre diferentes sistemas operacionais e plataformas.
+* **Facilidade de Desenvolvimento:** As linguagens interpretadas geralmente possuem sintaxe simplificada e facilitam a depuração de erros.
+* **Exemplos:** Python, JavaScript e PHP são exemplos populares de linguagens interpretadas.
+
+JavaScript é uma linguagem de programação que torna os sites mais interativos e dinâmicos, permitindo que os desenvolvedores criem uma experiência de usuário mais envolvente e responsiva. É uma ferramenta poderosa para criar uma ampla variedade de aplicações web, desde páginas estáticas simples até aplicativos da web complexos e interativos.
+
+Principais características do JavaScript:
+* **Linguagem de Script do Lado do Cliente:** JavaScript é executado no navegador da web do usuário, o que significa que o código é baixado juntamente com a página da web e executado no dispositivo do usuário.
+* **Interatividade e Dinamismo:** JavaScript é usado para adicionar interatividade a páginas da web, permitindo manipulação do DOM (Modelo de Objeto de Documento), animações, validação de formulários, interação com elementos da página e muito mais.
+* **Ampla Adoção e Comunidade Ativa:** JavaScript é uma das linguagens de programação mais populares e amplamente adotadas no mundo, com uma vasta comunidade de desenvolvedores e uma grande variedade de bibliotecas e frameworks disponíveis para facilitar o desenvolvimento.
+* **Compatibilidade com Múltiplos Navegadores:** A maioria dos navegadores modernos suporta JavaScript, o que permite que os desenvolvedores criem conteúdo interativo que funcione em uma ampla variedade de plataformas e dispositivos.
+* **Versatilidade:** Além de desenvolvimento web, JavaScript também é usado em ambientes de servidor (Node.js) e para criar aplicativos móveis (usando frameworks como React Native e Ionic).
+
+
+Variáveis
+
+Uma variável em uma linguagem de programação é um local de armazenamento na memória do computador que contém um valor. Esse valor pode ser de diversos tipos, como números, texto, valores lógicos (verdadeiro ou falso) e até mesmo estruturas de dados mais complexas.
+
+As variáveis são essenciais em programação, pois permitem que os programadores armazenem e manipulem dados dinamicamente durante a execução de um programa. Elas também fornecem nomes simbólicos para os dados, facilitando a compreensão e a manutenção do código.
+
+**Definição**: Uma variável é um espaço para manter informações durante a execução de um programa.
+
+Memória
+
+A memória é um elemento com capacidade para armazenar qualquer tipo de informação (dados e programas). Ela é dividida em milhares ou milhões de ""compartimentos"" e cada compartimento tem um número de localização chamado de **endereço de memória**.
+
+
+Variáveis na memória
+
+Os programas usam a memória para armazenar os dados fornecidos pelo usuário e os resultados parciais das operações sobre estes dados. No passado, para recuperar um dado na memória do computador era necessário saber o seu endereço. Porém, para um programador lembrar de cada número relativo ao endereço de memória utilizado é muito trabalhoso. Logo, as variáveis surgem para resolver esse problema, ao invés de lembrar de um número, basta lembrar do nome da variável para poder acessá-la.
+
+
+**Importante:** Uma variável representa um espaço de memória para armazenar um determinado tipo de dado.
+
+Declaração de variáveis (Sintaxe)
+Antes de usar uma variável, é necessário declará-la. Isso envolve especificar o tipo de dados que a variável irá armazenar e fornecer um nome para ela. Por exemplo, em muitas linguagens de programação, a declaração de uma variável do tipo inteiro chamada ""idade"" pode ser feita da seguinte forma:
+
+JavaScript é uma linguagem permite muita flexibilidade no uso de varíaveis. Os tipos de dados são definidos dinamicamente. Durante a execução do código uma variável pode assumir um tipo no início e durante a execução mudar o seu tipo, por exemplo, a variável pode começar com o tipo `string` (textual) e finalizar com o tipo `number` (numérico). Veja a seguir alguns exemplos de declaração de variáveis:
+
+Usando a palavra reservada **var**:
+* **var** <nome_da_variavel
+* <nome_da_variavel esse é o espaço para o nome da variável
+
+Usando inicialização:
+* **var** <nome_da_variavel [= <valor_inicial]
+* [= <valor_inicial], usando o operador de atribuição, `=`, para definir uma valor inicial para a variável
+
+Apenas com atribuição:
+* <nome_da_variavel = <valor_inicial
+
+Exemplos:
+```javascript
+var x;
+var y = 0;
+z = 1;
+```
+O código acima possui uma declaração de uma variável x, uma declaração de uma variável y com valor inicial igual a 0 e uma criação de uma variável z com valor 1 considerando que z aparece pela primeira vez no código.
+
+Exercícios
+
+Declare variáveis no console do seu navegador de internet:
+* Use o comando typeof para checar o tipo da variável
+* Declare uma variável x com ""var""
+* Atribua um valor inteiro e verifique o tipo
+* Atribua um valor textual e verifique o tipo
+* Faça o mesmo para uma variável y criada por uma atribuição
+
+Nome de variáveis
+
+Regras para nomes de variáveis
+* Deve iniciar por uma letra ou por o símbolo '_'
+* Pode ser composto por letras, dígitos ou o símbolo '_'
+* Não pode ser uma palavra reservada da linguagem
+
+Exemplos válidos:
+* teste
+* delta_bhaskara
+* TESTE
+* soma
+* _1234
+* _tESTe_
+* resultado1
+* temp
+* var0
+* raizDelta
+
+Exemplos não válidos ou não recomendados
+* 10_binario
+* raiz.quadrada
+* teste@
+* resultado-final
+* divisão
+
+Maiúsculas e minúsculas formam nomes de variáveis diferentes
+* teste, TESTE e tEsTe são variáveis diferentes
+
+Recomendações para criação de variáveis
+* Utilize nomes **representativos**
+* Inicie com letra **minúscula**
+* Simule o espaço (que não é permitido):
+* Com letra maiúscula: umNomeGrande
+* Com '_': um_nome_grande
+
+Usando variáveis
+Uma vez que uma variável tenha sido declarada e atribuída, ela pode ser usada em expressões e operações dentro do programa.
+
+Para atribuir um valor a uma variável use o operador `=`
+* O valor que a variável armazenava antes da atribuição é perdido (sobrescrito)
+* Lê-se: ""<variável recebe <valor""
+
+Exemplos:
+```javascript
+preco = 8.50
+altura = 1.67
+genero = 'M'
+```
+
+É importante observar que o valor armazenado em uma variável pode ser alterado ao longo da execução do programa, e as variáveis podem ser utilizadas em diferentes partes do código.
+
+Além disso, as variáveis podem ter escopo, o que significa que elas podem ser acessadas apenas em determinadas partes do código, dependendo de onde foram declaradas. O escopo de uma variável pode ser global (acessível em todo o programa) ou local (acessível apenas em uma parte específica do programa).
+
+Em resumo, uma variável em uma linguagem de programação é um contêiner de dados que pode armazenar e manipular valores durante a execução de um programa. Elas são elementos fundamentais para a criação de programas dinâmicos e flexíveis.
+
+
+
+Entrada e Saída de Dados
+
+A entrada de dados refere-se ao processo de fornecer informações ou comandos para um sistema computacional. Esses dados podem ser de diferentes tipos, como texto, números, comandos de controle, entre outros, e são inseridos no sistema por meio de dispositivos de entrada.
+
+Exemplos de dispositivos de entrada:
+* Teclado,
+* Mouse,
+* Tela sensível ao toque,
+* Sensor de temperatura,
+* Microfone.
+
+
+Os dispositivos de saída em computação são periféricos ou componentes do sistema que apresentam informações, resultados ou dados processados ​​para os usuários de uma forma compreensível. Eles são responsáveis por comunicar os resultados das operações realizadas pelo computador ou pelos dispositivos conectados ao sistema.
+
+Exemplos de dispositivos de saída:
+* Monitor ou tela,
+* Caixas de som,
+* Impressora,
+* LEDs.
+
+Nos nossos programas
+* **Entrada:** teclado
+* **Saída:** tela (janela, terminal ou prompt)
+
+
+Saída de dados
+
+Imprime ou apresenta textos e variáveis para o usuário do programa.
+
+Saída de dados em algoritmo (explicado)
+* Escreva um valor na tela
+
+Saída de dados em JavaScript
+* Comando: `alert(valor)`
+
+Exemplo de código para mostrar um texto na tela:
+```javascript
+alert(""Olá Mundo!"");
+```
+
+Entrada de dados
+
+Lê o valor digitado e armazena em uma variável. A valor de entrada deve ser compatível com o tipo de dado da variável. Quando o camando de leitura de dados é executado, o programa fica esperando indefinidamente até que a entrada de dados seja concluída ou fornecida.
+
+Entrada de dados em algoritmo (explicado)
+* Leia um valor
+
+Entrada em JavaScript
+
+Para ler um texto:
+```javascript
+valor = prompt(""Mensagem"");
+```
+
+Para ler um número real:
+```javascript
+valor = parseFloat(prompt(""Mensagem""));
+```
+
+Para ler um número inteiro:
+```javascript
+valor = parseInt(prompt(""Mensagem""));
+```
+
+
+Expressão Aritmética
+
+Uma expressão aritmética em uma linguagem de programação é uma combinação de números, operadores matemáticos e variáveis que, quando avaliada, produz um valor numérico. Ela é como uma fórmula matemática que pode ser calculada pelo computador para obter um resultado.
+
+**Definição:** Expressão aritmética é aquela cujos operadores são aritméticos e os operandos são constantes ou variáveis numéricas.
+
+Principais componentes de uma expressão aritmética:
+
+1. **Números**: São os valores numéricos que compõem a expressão, como 2, 5, 10, etc.
+1. **Operadores Matemáticos**: São os símbolos que indicam operações a serem executadas. Os operadores mais comuns são:
+1. Adição (+)
+1. Subtração (-)
+1. Multiplicação (*)
+1. Divisão (/)
+1. Exponenciação (**) - em JavaScript
+1. Módulo (%) - retorna o resto da divisão entre dois números
+1. **Variáveis**: São símbolos que representam valores que podem variar durante a execução do programa. Por exemplo, se tivermos a variável ""idade"", ela pode ser usada em uma expressão aritmética para representar a idade de uma pessoa.
+
+Exemplo de uma expressão aritmética:
+```javascript
+2 + 3 * (idade - 5)
+```
+Nesta expressão, contêm números (2, 3, 5), operadores (+, *, -), e uma variável (idade). Quando esta expressão é avaliada, ela primeiro resolve a operação dentro dos parênteses, subtrai 5 da variável ""idade"", multiplica o resultado por 3, e depois adiciona 2 ao resultado final.
+
+Em linguagens de programação, expressões aritméticas são frequentemente usadas em diversas situações, como calcular valores, atualizar variáveis, tomar decisões com base em resultados numéricos, entre outras. Elas formam a base para cálculos matemáticos e são uma parte fundamental da programação.
+
+
+Tabela com alguns operadores
+
+Símbolo em JavaScript | Função | Exemplo
+----------------------|--------|----------
+`+` | Adição | `2 + 3`, `X + Y`
+`-` | Subtração | `4 - 2`, `N – M`
+`*` | Multiplicação | `3 * 4`, `A * B`
+`/` | Divisão | `10 / 2`, `C / D`, `6 / 5`
+Sem símbolo | Potenciação | `4 * 4 * 4`, `Math.pow(x , y)` , `x**y`
+Sem símbolo | Raiz quadrada | `Math.sqrt(9)`,  `Math.sqrt(x)`
+`%` | Resto da divisão | 7 % 3
+Sem símbolo | Quociente da divisão inteira | `Math.floor( x / y )`
+
+Precedência de operadores
+
+* Parênteses mais internos
+* `*, /, %`
+* `+, -`
+
+Exemplos de expressões:
+* `A - B * C`
+* `(A * (B + C)) % D`
+
+Reflexão
+Resolvendo a expressão: `48 / 2 * (9+3)`
+
+Método 1:
+```
+48 / 2 * (9 + 3)
+48 / 2 * 12
+24 * 12
+288
+```
+
+Método 2:
+```
+48 / 2 * (9 + 3)
+48 / 2 * 12
+48 / 24
+2
+```
+
+Os operadores de mesma precedência são resolvidos da esquerda para direita na expressão. O único resultado da expressão `48 / 2 * (9 + 3)` é 288.
+
+Exercícios:
+
+Convertendo de horas para dias
+
+Escreva um programa que recebe um número inteiro de horas e imprime o número equivalente em dias. Ex.: 60 horas = 2,5 dias.
+
+Algoritmo:
+1. Entre com o número de horas e guarde em uma variável *horas*
+2. Divida o valor contido em *horas* por 24
+3. Apresente o resultado do passo 2.
+
+Código:
+```javascript
+horas = prompt(""Digite as horas: "")
+dias = horas / 24
+alert(dias)
+```
+
+Cálculo do IMC
+
+Escreva um programa que recebe a altura em metros e a massa em quilos de uma pessoa e calcula seu Índice de Massa Corporal (IMC). A fórmula do IMC é massa dividido por altura ao quadrado. Ver:
+
+Código:
+```javascript
+massa = parseFloat( prompt(""Entre com a massa""))
+altura = parseFloat( prompt(""Entre com a altura""))
+imc = massa / ( altura ** 2)
+alert(""IMC: ""+imc)
+```
+
+Média Ponderada
+
+Faça um algoritmo que leia as 3 notas de um aluno e calcule a média final deste aluno. Considera que a média é ponderada e que o peso de cada nota é: 2, 3 e 5, respectivamente.
+
+Código:
+```javascript
+var nota1 = parseFloat(prompt(""Entre com a nota 1: ""))
+var nota2 = parseFloat(prompt(""Entre com a nota 2: ""))
+var nota3 = parseFloat(prompt(""Entre com a nota 3: ""))
+var media = (nota1*2 + nota2*3 + nota3*5) / (2+3+5)
+alert(media)
+```
+
+Referências
+* [Developer Mozilla: Operadores aritméticos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operatorsoperadores_aritm%C3%A9ticos)
+* Slides de aulas da disciplina de Lógica de Porgramação da ECT-UFRN, consultados em 10/03/2022.
+* ChatGPT 3.5, https://chat.openai.com/, consultado em 22/02/2024.
+
+
+"
+O que é estruturas condicionais?,"
+Introdução
+
+Uma estrutura condicional é uma construção que permite que um programa tome decisões com base em condições específicas. Ela permite que o programa avalie uma expressão lógica e execute diferentes conjuntos de instruções, dependendo se a condição é verdadeira ou falsa.
+
+A estrutura condicional mais comum é o ""if-else"", que geralmente segue esta sintaxe:
+```javascript
+Se (condição) então
+// bloco de código executado se a condição for verdadeira
+Senão
+// bloco de código executado se a condição for falsa
+Fim Se
+```
+
+Funcionamento de uma estrutura condicional em um programa:
+1. **Avaliação da Condição**: O programa avalia uma expressão lógica ou uma condição. Por exemplo, a condição pode ser algo como ""se o valor de x for maior que 10"".
+1. **Execução do Bloco de Código**: Se a condição for verdadeira, o programa executa o bloco de código associado ao ""então"". Isso pode incluir uma ou várias instruções que serão executadas se a condição for atendida.
+1. **Execução do Bloco de Código Alternativo**: Se a condição não for verdadeira, o programa pode executar um bloco de código alternativo associado ao ""senão"", ou pode simplesmente continuar a execução do código após a estrutura condicional.
+
+Bloco de Código
+Um bloco de código é um conjunto de instruções agrupadas entre chaves `{}`. Esses blocos são usados para agrupar múltiplas instruções em uma única unidade de execução. Os blocos de código são comumente usados em estruturas condicionais (como `if`, `else`, `else if`), loops ( `for`, `while`, `do-while`), funções e em muitos outros contextos onde é necessário agrupar instruções.
+
+Sintaxe para um bloco de código em JavaScript:
+```javascript
+{
+// Aqui vão as instruções do bloco de código
+}
+```
+Exemplo Inicial
+
+Exemplo de um código em JavaScript para a estrutura condicional `if-else`:
+```javascript
+let idade = 20;
+
+if (idade = 18) {
+// Bloco de código executado se a idade for maior ou igual a 18
+console.log(""Você é maior de idade."");
+} else {
+// Bloco de código executado se a idade for menor que 18
+console.log(""Você é menor de idade."");
+}
+```
+Neste exemplo, se a idade for maior ou igual a 18, o programa imprimirá ""Você é maior de idade."". Caso contrário, imprimirá ""Você é menor de idade."".
+
+No exemplo anterior, o bloco de código dentro das chaves `{}` após `if (idade = 18)` e `else` contém as instruções a serem executadas com base na condição da idade.
+
+Os blocos de código ajudam a organizar o código, tornando-o mais legível e facilitando a manutenção. Eles também ajudam a isolar o escopo de variáveis e outras declarações, limitando sua visibilidade a apenas dentro do bloco em que foram definidos. Isso contribui para evitar problemas de poluição do escopo e colisões de nomes de variáveis em programas JavaScript.
+
+As estruturas condicionais são fundamentais para a tomada de decisões em programas de computador. Elas permitem que os programas sejam flexíveis e dinâmicos, respondendo a diferentes situações com comportamentos apropriados. Além do ""if-else"", existem outras estruturas condicionais, como ""switch-case"" em algumas linguagens de programação, que oferecem formas mais avançadas de controle de fluxo baseado em condições.
+
+Estrutura condicional simples
+A estrutura condicional simples permite a execução de um grupo de instruções (ou bloco de instruções) quando determinadas condições forem satisfeitas.
+
+Sintaxe:
+* “**if**” em inglês significa “**se**” em português
+```javascript
+if ( <condição )
+{
+<instrução 1
+<instrução 2
+<instrução 3
+
+}
+```
+Atividade 1
+Escreva um algoritmo que recebe as 3 notas de um aluno e escreve na tela a palavra “Aprovado” caso sua média seja maior ou igual a 5.0.
+```javascript
+nota1 = parseFloat(prompt(""Entre com a nota 1:""))
+nota2 = parseFloat(prompt(""Entre com a nota 2:""))
+nota3 = parseFloat(prompt(""Entre com a nota 3:""))
+
+media = (nota1 + nota2 + nota3)/3
+
+if (media  5){
+alert(""Aprovado"")
+}
+```
+
+Operadores relacionais
+Operadores relacionais são utilizados em linguagens de programação para comparar valores e expressões, resultando em um valor booleano (**verdadeiro** ou **falso**) que indica se a relação entre os operandos é verdadeira ou falsa. Esses operadores são comumente usados em estruturas condicionais e em expressões que envolvem tomada de decisões.
+
+Símbolo em JavaScript | Descrição | Exemplo que retorna verdadeiro
+----------------------|-----------|----------
+Igual (==) | Retorna verdadeiro caso os operandos sejam iguais | 3 == var1, ""3"" == var1 e 3 == '3'
+Diferente  (!=) | 	Retorna verdadeiro caso os operandos não sejam iguais. | var1 != 4 e var2 != ""3""
+Estritamente igual (===) | Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo. |	3 === var1
+Maior que () | Retorna verdadeiro caso o operando da esquerda seja maior que o da direita. | var2  var1 e ""12""  2
+Maior que ou igual (=) | Retorna verdadeiro caso o operando da esquerda seja maior ou igual ao da direita. |  var2 = var1
+Menor que (<) | Retorna verdadeiro caso o operando da esquerda seja menor que o da direita. | var1 < var2
+Menor que ou igual (<=) | 	Retorna verdadeiro caso o operando da esquerda seja menor ou igual ao da direita. | var1 <= var2
+
+Exemplos simples com estes operadores:
+```javascript
+let a = 5;
+let b = 10;
+
+console.log(a == b);  // Falso, porque 5 não é igual a 10
+console.log(a != b);  // Verdadeiro, porque 5 é diferente de 10
+console.log(a  b);   // Falso, porque 5 não é maior que 10
+console.log(a < b);   // Verdadeiro, porque 5 é menor que 10
+console.log(a = b);  // Falso, porque 5 não é maior ou igual a 10
+console.log(a <= b);  // Verdadeiro, porque 5 é menor ou igual a 10
+```
+
+Estrutura Condicional Composta
+A estrutura condicional composta permite a seleção entre dois blocos de instruções a partir de uma única condição.
+
+Sintaxe:
+```javascript
+if ( <condição )
+{
+<instrução 1
+<instrução 2
+<instrução 3
+
+}
+else
+{
+<instrução 4
+<instrução 5
+<instrução 6
+}
+```
+Atividade 2
+Escreva um algoritmo que recebe as 3 notas de um aluno e escreve na tela a palavra “Aprovado” caso sua média seja maior ou igual a 5.0, e “Reprovado”, caso contrário.
+
+```javascript
+nota1 = parseFloat(prompt(""Entre com a nota 1:""))
+nota2 = parseFloat(prompt(""Entre com a nota 2:""))
+nota3 = parseFloat(prompt(""Entre com a nota 3:""))
+
+media = (nota1 + nota2 + nota3)/3
+
+if (media  5){
+alert(""Aprovado"")
+}
+else {
+alert(""Reprovado"")
+}
+```
+
+Estrutura Condicional Aninhada
+A estrutura condicional aninhada permite a seleção entre diversos blocos de instruções.
+
+Sintaxe:
+```javascript
+if ( <condição )
+{
+if ( <condição )
+{
+<instrução 1
+}
+else
+{
+<instrução 2
+}
+}
+else
+{
+<instrução 3
+}
+```
+
+Atividade 3
+Escreva um algoritmo que recebe as 3 notas de um aluno e escreve na tela a palavra “Aprovado” caso sua média seja maior ou igual a 5.0, “Reprovado” caso sua média seja menor que 3.0, ou “Recuperação” caso sua média esteja entre 3.0 e menor que 5.0.
+
+```javascript
+nota1 = parseFloat(prompt(""Entre com a nota 1:""))
+nota2 = parseFloat(prompt(""Entre com a nota 2:""))
+nota3 = parseFloat(prompt(""Entre com a nota 3:""))
+
+media = (nota1 + nota2 + nota3)/3
+
+if (media  5){
+alert(""Aprovado"")
+}
+else {
+if (media  3){
+alert(""Recuperação"")
+}
+else {
+alert(""Reprovado"")
+}
+}
+```
+Aplicações
+
+Teste de Divisibilidade
+Implemente um programa que verifica se um dado número inteiro é **divisível por 6**.
+```javascript
+x = parseInt(prompt(""Entre com número inteiro:""))
+if ( x % 6 == 0) {
+alert(""Divisível por 6"")
+}
+```
+
+Implemente um programa que verifica se um dado número inteiro é **divisível por 3, mas não por 5**.
+```javascript
+x = parseInt(prompt(""Entre com número inteiro:""))
+if ( x % 3 == 0) {
+if ( x % 5 != 0) {
+alert(""Divisível por 3, mas não por 5"")
+}
+}
+```
+
+Implemente um programa que verifica se um dado número inteiro **é ímpar**. Uma possível solução é verificar se o número não é divisível por 2, ou seja, não é par.
+```javascript
+x = parseInt(prompt(""Entre com número inteiro:""))
+if ( x % 2 != 0) {
+alert(""É impar"")
+}
+```
+
+Implemente um programa que verifica se um dado número inteiro é **divisível por 4 e por 5**.
+```javascript
+x = parseInt(prompt(""Entre com número inteiro:""))
+if ( x % 4 == 0) {
+if ( x % 5 == 0) {
+alert(""Divisível por 4 e por 5"")
+}
+}
+```
+
+Teste de Intervalo
+Implemente um programa que verifica se um dado número é **maior do que 5**, ou seja, está no intervalo aberto de 5 a +infinito.
+```javascript
+x = parseFloat(prompt(""Entre com número:""))
+if ( x  5 ) {
+alert(""Maior do que 5"")
+}
+```
+
+Implemente um programa que verifica se um dado número está no **intervalo fechado de -3.2 a 9.23**.
+```javascript
+x = parseFloat(prompt(""Entre com número:""))
+if ( x = 3.2 ) {
+if ( x =< 9.23 ) {
+alert(""Maior do que 5"")
+}
+}
+```
+
+Implemente um programa que verifica se um dado número **não está no intervalo fechado de -5 a 30**. Faça uma análise visual deste intervalo.
+```javascript
+x = parseFloat(prompt(""Entre com número:""))
+if ( x <= -5 ) {
+alert(""Não está no intervalo fechado de -5 a 30"")
+}
+if ( x = 30 ) {
+alert(""Não está no intervalo fechado de -5 a 30"")
+}
+```
+Exercício 1
+Implemente um programa que mostra a situação do aluno como  “Aprovado” ou “Reprovado” de acordo com sua média final e a quantidade de faltas. O programa deve receber como entradas as faltas e duas notas do aluno.
+
+* O aluno será reprovado por falta se faltar mais que ¼ das aulas (o número total de aulas é 90);
+* Se o aluno ficar com média no intervalo [3, 5[, ele está em “Recuperação” e deverá fazer prova de reposição;
+* Caso o aluno faça prova de reposição, o programa deve pedir para o usuário informar a nota da prova de reposição e substituir na menor nota.
+* O aluno será aprovado se obtiver média 5 ou maior, senão será reprovado
+
+Expressões lógicas
+
+Uma expressão lógica em linguagem de programação é uma construção que resulta em um valor booleano, ou seja, verdadeiro ou falso. Ela combina operandos (valores, variáveis ou outras expressões) com operadores lógicos para formar uma afirmação que pode ser avaliada como verdadeira ou falsa.
+
+As expressões lógicas são frequentemente usadas em estruturas de controle, como condicionais e loops, para tomar decisões com base em condições específicas. Elas também são usadas em validações, algoritmos de busca e outras áreas da programação onde a lógica booleana é necessária.
+
+Principais componentes das expressões lógicas:
+* A condição de uma estrutura condicional é sempre uma expressão lógica.
+* **Expressão lógica** é aquela cujos **operadores** são **lógicos** ou **relacionais** e que o resultado da expressão é um valor verdadeiro ou falso.
+
+Operadores lógicos
+
+Expressões lógicas desempenham um papel fundamental na programação, permitindo aos desenvolvedores criar condições complexas a partir de condições simples. Por meio dos operadores lógicos, como AND (E), OR (OU) e NOT (NÃO), é possível combinar várias condições para formar expressões mais elaboradas.
+
+Os operadores lógicos facilitam o raciocínio ao permitir que os programadores expressem de forma clara e concisa as condições que desejam avaliar em seus programas. Ao utilizar expressões lógicas, é possível criar instruções que respondam a uma ampla gama de situações e cenários, tornando o código mais adaptável e flexível.
+
+Além disso, as expressões lógicas tornam o código mais breve, pois permitem que várias condições sejam avaliadas em uma única linha de código. Isso resulta em um código mais limpo e legível, facilitando a compreensão e manutenção do programa.
+
+Em uma expressão lógica, os operandos dos operadores lógicos são chamados proposições. Essas proposições são declarações ou expressões que podem ser avaliadas como verdadeiras ou falsas. Elas são a base sobre a qual os operadores lógicos operam, e cada proposição possui um de dois valores possíveis: verdadeiro ou falso.
+
+Por exemplo, considere as proposições ""3 é maior que 2"" e ""7 é menor que 5"". Ambas são expressões que podem ser avaliadas como verdadeiras ou falsas. No primeiro caso, a proposição é verdadeira, enquanto no segundo caso, é falsa.
+
+Quando essas proposições são combinadas com operadores lógicos, uma operação lógica é realizada. Essa operação resulta em outra proposição que também pode ser avaliada como verdadeira ou falsa, dependendo dos valores das proposições originais e do tipo de operador lógico utilizado. É importante ressaltar que uma proposição é uma afirmação individual que pode ser verdadeira ou falsa, uma expressão lógica é uma combinação de proposições e operadores lógicos que produz um valor booleano quando avaliada. Logo, as expressões lógicas são construídas a partir de proposições, mas não são idênticas a elas.
+
+Portanto, as expressões lógicas são uma ferramenta poderosa na programação, fornecendo aos desenvolvedores uma maneira eficiente de criar condições e tomadas de decisão em seus programas, facilitando o desenvolvimento de software robusto e eficaz. Dominar a estrutura condicional e os operadores lógicos é, certamente, a base para se aprender lógica de programação.
+
+Operadores lógicos em JavaScript:
+
+| Símbolo  | Função |
+| :---: | :---: |
+|   &&   |  E (Conjunção)   |
+|  \|\|  |  OU (Disjunção)  |
+| !  |  Não (Negação)  |
+
+
+Atividades
+1. Implemente um programa, utilzando operadores lógicos, que verifica se um dado número inteiro é divisível por 3, mas não por 5.
+2. Implemente um programa que verifica se um dado número está no intervalo fechado de -3.2 a 9.23, use operadores lógicos.
+
+Tabela Verdade
+Uma tabela verdade é uma tabela que mostra todas as possíveis combinações de valores de verdade para uma expressão lógica. Essas tabelas são usadas para determinar o resultado de uma expressão lógica em todas as suas diferentes condições.
+
+As tabelas verdade são construídas listando todas as combinações possíveis de valores verdadeiros (V) e falsos (F) para as proposições envolvidas na expressão lógica. Em seguida, o valor verdadeiro ou falso resultante da expressão é determinado para cada combinação.
+
+As tabelas verdade são úteis para entender o comportamento de expressões lógicas complexas, especialmente quando envolvem múltiplas proposições e operadores lógicos. Elas ajudam os programadores a visualizar todas as possíveis situações e a determinar como uma expressão lógica se comportará em cada uma delas.
+
+
+Operador Lógico E
+
+O operador lógico E, representado por ""&&"", retorna verdadeiro apenas se ambas as proposições envolvidas forem verdadeiras. Se pelo menos uma das proposições for falsa, o resultado será falso.
+
+Exemplos de afirmações usando o operador lógico E, expressas de linguagem natural:
+* ""Eu vou comprar sorvete se estiver calor e eu tiver dinheiro no bolso.""
+* Esta afirmação implica que duas condições devem ser verdadeiras para que a ação de comprar sorvete ocorra: o clima precisa estar quente e ensolarado (calor), e a pessoa precisa ter dinheiro disponível no bolso.
+* ""Vou assistir ao filme se estiver em cartaz no cinema e meus amigos quiserem ir também.""
+* Esta afirmação indica que duas condições precisam ser atendidas para que a pessoa assista ao filme: o filme deve estar sendo exibido no cinema (estar em cartaz) e os amigos também devem querer ir.
+* ""Eu vou à festa se for sexta-feira e eu não tiver nenhum compromisso importante no dia seguinte.""
+* Esta afirmação sugere que a pessoa comparecerá à festa apenas se duas condições forem verdadeiras: é sexta-feira (e não outro dia da semana) e não há nenhum compromisso importante agendado para o dia seguinte.
+
+Esses exemplos ilustram como o operador lógico E é usado para combinar duas condições distintas em uma única afirmação, onde ambas as condições precisam ser verdadeiras para que a ação especificada ocorra.
+
+A tabela verdade do operador lógico E é apresentada a seguir:
+
+| A | B | A && B |
+|---|---|--------|
+| V | V |   V    |
+| V | F |   F    |
+| F | V |   F    |
+| F | F |   F    |
+
+Na tabela verdade:
+* Quando A e B são ambas verdadeiras (V && V), o resultado é verdadeiro (V).
+* Quando A é verdadeira e B é falsa (V && F), o resultado é falso (F).
+* Quando A é falsa e B é verdadeira (F && V), o resultado é falso (F).
+* Somente quando ambas A e B são falsas (F && F), o resultado é falso (F).
+
+O operador lógico E é útil quando queremos que todas as condições sejam atendidas para que uma determinada ação ocorra. Se qualquer uma das condições não for atendida, o resultado será falso. Isso é especialmente útil em situações onde múltiplas condições devem ser verdadeiras para que um determinado bloco de código seja executado.
+
+Operador Lógico OU
+O operador lógico OU, representado por ""||"", retorna verdadeiro se pelo menos uma das proposições envolvidas for verdadeira. Isso significa que ele retorna falso apenas se ambas as proposições forem falsas.
+
+Exemplos de afirmações usando o operador lógico E, expressas de linguagem natural:
+* ""Vou comprar o laptop se ele estiver em promoção ou vier com brindes grátis.""
+* Nesta afirmação, a pessoa considerará comprar o laptop se uma das duas condições for verdadeira: o laptop está em promoção (com desconto) ou vem com brindes grátis.
+* ""Vou fazer a viagem se o clima estiver ensolarado ou se o destino for uma praia paradisíaca.""
+* Nesta afirmação, a pessoa optará por fazer a viagem se pelo menos uma das condições for atendida: o clima estiver ensolarado ou o destino da viagem for uma praia paradisíaca.
+* ""Eu comprarei o apartamento se ele tiver uma boa localização ou se tiver uma vista panorâmica.""
+* Neste caso, a pessoa considerará comprar o apartamento se uma das duas condições for verdadeira: o apartamento estiver bem localizado (em uma área conveniente) ou oferecer uma vista panorâmica desejável.
+
+Esses exemplos ilustram como o operador lógico OU é usado para combinar duas condições distintas em uma única afirmação, onde apenas uma das condições precisa ser verdadeira para que a ação especificada ocorra.
+
+A tabela verdade do operador lógico OU é apresentada a seguir:
+
+| A | B | A \|\| B |
+|---|---|--------|
+| V | V |   V    |
+| V | F |   V    |
+| F | V |   V    |
+| F | F |   F    |
+
+Nesta tabela verdade:
+
+* Quando A e B são ambas verdadeiras (V || V), o resultado é verdadeiro (V).
+* Quando A é verdadeira e B é falsa (V || F), o resultado é verdadeiro (V).
+* Quando A é falsa e B é verdadeira (F || V), o resultado é verdadeiro (V).
+* Somente quando ambas A e B são falsas (F || F), o resultado é falso (F).
+
+Essencialmente, o operador lógico OU verifica se pelo menos uma das proposições é verdadeira. Se pelo menos uma delas for verdadeira, o resultado será verdadeiro. Isso é útil quando queremos executar um bloco de código se qualquer uma das condições for atendida, sem a necessidade de ambas serem verdadeiras.
+
+Operador de Negação
+O operador de negação, representado por ""!"", inverte o valor de uma proposição. Em outras palavras, se a proposição for verdadeira, a negação será falsa, e se a proposição for falsa, a negação será verdadeira.
+
+A tabela verdade do operador lógico Negação é apresentada a seguir:
+
+| A | !A |
+|---|----|
+| V |  F |
+| F |  V |
+
+Na tabela verdade:
+
+* Quando A é verdadeira, sua negação (!A) é falsa.
+* Quando A é falsa, sua negação (!A) é verdadeira.
+
+O operador lógico Negação é frequentemente usado para inverter o resultado de uma condição. Por exemplo, se queremos verificar se uma variável é diferente de zero, podemos usar a negação da condição ""a variável é igual a zero"" para obter o resultado desejado:
+```javascript
+x = 5;
+if (!(x == 0)) {
+// Executa se x for diferente de zero
+}
+```
+
+No exemplo acima, a negação da condição ""x é igual a zero"" garante que o bloco de código seja executado apenas se x for diferente de zero. Isso demonstra como o operador de negação pode ser útil para controlar o fluxo do programa com base em condições específicas.
+
+Precedência entre operações
+
+1. NÃO (!)
+1. Operadores aritméticos
+1. Operadores relacionais
+1. E (&&)
+1. OU (||)
+
+Exemplos:
+```javascript
+2 < 5 && 15/3 == 5
+```
+
+```javascript
+5*4 = 20 && 17/4 < 3 || 2+3 == 5
+```
+
+Exercícios
+
+1 - Determine os resultados obtidos na avaliação das expressões lógicas seguintes, sabendo que A = 2, B = 7 e C = 3:
+
+1. A  B-1 || A  B - 2
+1. C  A || B < C && A + 5  B
+1. A == C-1 && B * 2  A*C && (A+B+C)/2 < B
+1. C - A  B / 3 || !(5 + C – A <= 12)
+1. C\*3 = B && 5+A <= B && B-C = A\*2 && B\*3  (B+C)\*2
+
+
+2 - Implemente um programa que verifica se um dado número inteiro é divisível por 3, 4 e 5 ao mesmo tempo.
+```javascript
+n = parseInt(prompt(""Entre com um número: ""))
+if ( n % 3 == 0 && n % 4 == 0 && n % 5 == 0) {
+alert(""Divisível por 3 e divisível por 4 e divisível por 5."")
+}
+```
+
+3 - Implemente um programa que verifica se um dado número está no intervalo fechado de 0 a 10 ou no intervalo aberto de 30 a 40.
+```javascript
+n = parseFloat(prompt(""Entre com um número: ""))
+if ( n = 0 && n =< 10 || n  30 && n < 40 ) {
+alert(""Número é maior ou igual a 0 e menor ou igual a 10 ou maior que 30 e menor que 40."")
+}
+```
+
+4 - Implemente um programa que verifica se um dado número não está no intervalo fechado de -5 a 30
+```javascript
+n = parseFloat(prompt(""Entre com um número: ""))
+if ( ! (n = -5 && n <= 30 ) ) {
+alert(""Número não é maior ou igual a -5 e menor ou igual a 30."")
+}
+```
+
+
+
+Referências
+1. [Expressões e operadores em  https://developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators)
+2. Slides de aulas da disciplina de Lógica de Porgramação da ECT-UFRN, consultados em 10/03/2022.
+3. ChatGPT 3.5, https://chat.openai.com/, consultado em 26/02/2024."
+O que é entrada e saída de dados?,"
+A entrada de dados refere-se ao processo de fornecer informações ou comandos para um sistema computacional. Esses dados podem ser de diferentes tipos, como texto, números, comandos de controle, entre outros, e são inseridos no sistema por meio de dispositivos de entrada.
+
+Exemplos de dispositivos de entrada:
+* Teclado,
+* Mouse,
+* Tela sensível ao toque,
+* Sensor de temperatura,
+* Microfone.
+
+
+Os dispositivos de saída em computação são periféricos ou componentes do sistema que apresentam informações, resultados ou dados processados ​​para os usuários de uma forma compreensível. Eles são responsáveis por comunicar os resultados das operações realizadas pelo computador ou pelos dispositivos conectados ao sistema.
+
+Exemplos de dispositivos de saída:
+* Monitor ou tela,
+* Caixas de som,
+* Impressora,
+* LEDs.
+
+Nos nossos programas
+* **Entrada:** teclado
+* **Saída:** tela (janela, terminal ou prompt)
+
+
+Saída de dados
+
+Imprime ou apresenta textos e variáveis para o usuário do programa.
+
+Saída de dados em algoritmo (explicado)
+* Escreva um valor na tela
+
+Saída de dados em JavaScript
+* Comando: `alert(valor)`
+
+Exemplo de código para mostrar um texto na tela:
+```javascript
+alert(""Olá Mundo!"");
+```
+
+Entrada de dados
+
+Lê o valor digitado e armazena em uma variável. A valor de entrada deve ser compatível com o tipo de dado da variável. Quando o camando de leitura de dados é executado, o programa fica esperando indefinidamente até que a entrada de dados seja concluída ou fornecida.
+
+Entrada de dados em algoritmo (explicado)
+* Leia um valor
+
+Entrada em JavaScript
+
+Para ler um texto:
+```javascript
+valor = prompt(""Mensagem"");
+```
+
+Para ler um número real:
+```javascript
+valor = parseFloat(prompt(""Mensagem""));
+```
+
+Para ler um número inteiro:
+```javascript
+valor = parseInt(prompt(""Mensagem""));
+```
+
+
+Referências
+* Slides de aulas da disciplina de Lógica de Porgramação da ECT-UFRN, consultados em 10/03/2023.
+* ChatGPT 3.5, https://chat.openai.com/, consultado em 22/02/2024."
+O que é expressão aritmética?,"
+Uma expressão aritmética em uma linguagem de programação é uma combinação de números, operadores matemáticos e variáveis que, quando avaliada, produz um valor numérico. Ela é como uma fórmula matemática que pode ser calculada pelo computador para obter um resultado.
+
+**Definição:** Expressão aritmética é aquela cujos operadores são aritméticos e os operandos são constantes ou variáveis numéricas.
+
+Principais componentes de uma expressão aritmética:
+
+1. **Números**: São os valores numéricos que compõem a expressão, como 2, 5, 10, etc.
+1. **Operadores Matemáticos**: São os símbolos que indicam operações a serem executadas. Os operadores mais comuns são:
+1. Adição (+)
+1. Subtração (-)
+1. Multiplicação (*)
+1. Divisão (/)
+1. Exponenciação (**) - em JavaScript
+1. Módulo (%) - retorna o resto da divisão entre dois números
+1. **Variáveis**: São símbolos que representam valores que podem variar durante a execução do programa. Por exemplo, se tivermos a variável ""idade"", ela pode ser usada em uma expressão aritmética para representar a idade de uma pessoa.
+
+Exemplo de uma expressão aritmética:
+```javascript
+2 + 3 * (idade - 5)
+```
+Nesta expressão, contêm números (2, 3, 5), operadores (+, *, -), e uma variável (idade). Quando esta expressão é avaliada, ela primeiro resolve a operação dentro dos parênteses, subtrai 5 da variável ""idade"", multiplica o resultado por 3, e depois adiciona 2 ao resultado final.
+
+Em linguagens de programação, expressões aritméticas são frequentemente usadas em diversas situações, como calcular valores, atualizar variáveis, tomar decisões com base em resultados numéricos, entre outras. Elas formam a base para cálculos matemáticos e são uma parte fundamental da programação.
+
+
+Tabela com alguns operadores
+
+Símbolo em JavaScript | Função | Exemplo
+----------------------|--------|----------
+`+` | Adição | `2 + 3`, `X + Y`
+`-` | Subtração | `4 - 2`, `N – M`
+`*` | Multiplicação | `3 * 4`, `A * B`
+`/` | Divisão | `10 / 2`, `C / D`, `6 / 5`
+Sem símbolo | Potenciação | `4 * 4 * 4`, `Math.pow(x , y)` , `x**y`
+Sem símbolo | Raiz quadrada | `Math.sqrt(9)`,  `Math.sqrt(x)`
+`%` | Resto da divisão | 7 % 3
+Sem símbolo | Quociente da divisão inteira | `Math.floor( x / y )`
+
+Precedência de operadores
+
+* Parênteses mais internos
+* `*, /, %`
+* `+, -`
+
+Exemplos de expressões:
+* `A - B * C`
+* `(A * (B + C)) % D`
+
+Reflexão
+Resolvendo a expressão: `48 / 2 * (9+3)`
+
+Método 1:
+```
+48 / 2 * (9 + 3)
+48 / 2 * 12
+24 * 12
+288
+```
+
+Método 2:
+```
+48 / 2 * (9 + 3)
+48 / 2 * 12
+48 / 24
+2
+```
+
+Os operadores de mesma precedência são resolvidos da esquerda para direita na expressão. O único resultado da expressão `48 / 2 * (9 + 3)` é 288.
+
+Exercícios:
+
+Convertendo de horas para dias
+
+Escreva um programa que recebe um número inteiro de horas e imprime o número equivalente em dias. Ex.: 60 horas = 2,5 dias.
+
+Algoritmo:
+1. Entre com o número de horas e guarde em uma variável *horas*
+2. Divida o valor contido em *horas* por 24
+3. Apresente o resultado do passo 2.
+
+Código:
+```javascript
+horas = prompt(""Digite as horas: "")
+dias = horas / 24
+alert(dias)
+```
+
+Cálculo do IMC
+
+Escreva um programa que recebe a altura em metros e a massa em quilos de uma pessoa e calcula seu Índice de Massa Corporal (IMC). A fórmula do IMC é massa dividido por altura ao quadrado. Ver:
+
+Código:
+```javascript
+massa = parseFloat( prompt(""Entre com a massa""))
+altura = parseFloat( prompt(""Entre com a altura""))
+imc = massa / ( altura ** 2)
+alert(""IMC: ""+imc)
+```
+
+Média Ponderada
+
+Faça um algoritmo que leia as 3 notas de um aluno e calcule a média final deste aluno. Considera que a média é ponderada e que o peso de cada nota é: 2, 3 e 5, respectivamente.
+
+Código:
+```javascript
+var nota1 = parseFloat(prompt(""Entre com a nota 1: ""))
+var nota2 = parseFloat(prompt(""Entre com a nota 2: ""))
+var nota3 = parseFloat(prompt(""Entre com a nota 3: ""))
+var media = (nota1*2 + nota2*3 + nota3*5) / (2+3+5)
+alert(media)
+```
+
+Referências
+* [Developer Mozilla: Operadores aritméticos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operatorsoperadores_aritm%C3%A9ticos)
+* Slides de aulas da disciplina de Lógica de Porgramação da ECT-UFRN, consultados em 10/03/2022.
+* ChatGPT 3.5, https://chat.openai.com/, consultado em 22/02/2024."
+O que é javascript?,"
+JavaScript é uma linguagem de programação projetada inicialmente para navegadores web. Uma linguagem de programação é um método de expressar um conjunto de instruções para um computador.
+
+JavaScript é uma linguagem interpretada, na qual trechos de códigos são traduzidos em instruções de máquinas do computador de forma progressiva.
+
+
+Variáveis
+
+Uma variável em uma linguagem de programação é um local de armazenamento na memória do computador que contém um valor. Esse valor pode ser de diversos tipos, como números, texto, valores lógicos (verdadeiro ou falso) e até mesmo estruturas de dados mais complexas.
+
+As variáveis são essenciais em programação, pois permitem que os programadores armazenem e manipulem dados dinamicamente durante a execução de um programa. Elas também fornecem nomes simbólicos para os dados, facilitando a compreensão e a manutenção do código.
+
+**Definição**: Uma variável é um espaço para manter informações durante a execução de um programa.
+
+Memória
+
+A memória é um elemento com capacidade para armazenar qualquer tipo de informação (dados e programas). Ela é dividida em milhares ou milhões de ""compartimentos"" e cada compartimento tem um número de localização chamado de **endereço de memória**.
+
+
+Variáveis na memória
+
+Os programas usam a memória para armazenar os dados fornecidos pelo usuário e os resultados parciais das operações sobre estes dados. No passado, para recuperar um dado na memória do computador era necessário saber o seu endereço. Porém, para um programador lembrar de cada número relativo ao endereço de memória utilizado é muito trabalhoso. Logo, as variáveis surgem para resolver esse problema, ao invés de lembrar de um número, basta lembrar do nome da variável para poder acessá-la.
+
+
+**Importante:** Uma variável representa um espaço de memória para armazenar um determinado tipo de dado.
+
+Declaração de variáveis (Sintaxe)
+Antes de usar uma variável, é necessário declará-la. Isso envolve especificar o tipo de dados que a variável irá armazenar e fornecer um nome para ela. Por exemplo, em muitas linguagens de programação, a declaração de uma variável do tipo inteiro chamada ""idade"" pode ser feita da seguinte forma:
+
+JavaScript é uma linguagem permite muita flexibilidade no uso de varíaveis. Os tipos de dados são definidos dinamicamente. Durante a execução do código uma variável pode assumir um tipo no início e durante a execução mudar o seu tipo, por exemplo, a variável pode começar com o tipo `string` (textual) e finalizar com o tipo `number` (numérico). Veja a seguir alguns exemplos de declaração de variáveis:
+
+Usando a palavra reservada **var**:
+* **var** <nome_da_variavel
+* <nome_da_variavel esse é o espaço para o nome da variável
+
+Usando inicialização:
+* **var** <nome_da_variavel [= <valor_inicial]
+* [= <valor_inicial], usando o operador de atribuição, `=`, para definir uma valor inicial para a variável
+
+Apenas com atribuição:
+* <nome_da_variavel = <valor_inicial
+
+Exemplos:
+```javascript
+var x;
+var y = 0;
+z = 1;
+```
+O código acima possui uma declaração de uma variável x, uma declaração de uma variável y com valor inicial igual a 0 e uma criação de uma variável z com valor 1 considerando que z aparece pela primeira vez no código.
+
+Exercícios
+
+Declare variáveis no console do seu navegador de internet:
+* Use o comando typeof para checar o tipo da variável
+* Declare uma variável x com ""var""
+* Atribua um valor inteiro e verifique o tipo
+* Atribua um valor textual e verifique o tipo
+* Faça o mesmo para uma variável y criada por uma atribuição
+
+Nome de variáveis
+
+Regras para nomes de variáveis
+* Deve iniciar por uma letra ou por o símbolo '_'
+* Pode ser composto por letras, dígitos ou o símbolo '_'
+* Não pode ser uma palavra reservada da linguagem
+
+Exemplos válidos:
+* teste
+* delta_bhaskara
+* TESTE
+* soma
+* _1234
+* _tESTe_
+* resultado1
+* temp
+* var0
+* raizDelta
+
+Exemplos não válidos ou não recomendados
+* 10_binario
+* raiz.quadrada
+* teste@
+* resultado-final
+* divisão
+
+Maiúsculas e minúsculas formam nomes de variáveis diferentes
+* teste, TESTE e tEsTe são variáveis diferentes
+
+Recomendações para criação de variáveis
+* Utilize nomes **representativos**
+* Inicie com letra **minúscula**
+* Simule o espaço (que não é permitido):
+* Com letra maiúscula: umNomeGrande
+* Com '_': um_nome_grande
+
+Usando variáveis
+Uma vez que uma variável tenha sido declarada e atribuída, ela pode ser usada em expressões e operações dentro do programa.
+
+Para atribuir um valor a uma variável use o operador `=`
+* O valor que a variável armazenava antes da atribuição é perdido (sobrescrito)
+* Lê-se: ""<variável recebe <valor""
+
+Exemplos:
+```javascript
+preco = 8.50
+altura = 1.67
+genero = 'M'
+```
+
+É importante observar que o valor armazenado em uma variável pode ser alterado ao longo da execução do programa, e as variáveis podem ser utilizadas em diferentes partes do código.
+
+Além disso, as variáveis podem ter escopo, o que significa que elas podem ser acessadas apenas em determinadas partes do código, dependendo de onde foram declaradas. O escopo de uma variável pode ser global (acessível em todo o programa) ou local (acessível apenas em uma parte específica do programa).
+
+Em resumo, uma variável em uma linguagem de programação é um contêiner de dados que pode armazenar e manipular valores durante a execução de um programa. Elas são elementos fundamentais para a criação de programas dinâmicos e flexíveis.
+
+Referências
+* Slides de aulas da disciplina de Lógica de Porgramação da ECT-UFRN, consultados em 10/03/2022.
+* ChatGPT 3.5, https://chat.openai.com/, consultado em 22/02/2024.
+
+
+
+
+
+
+"
+O que é repetição condicional?,"
+As estruturas de repetição desempenham um papel crucial na programação quando há a necessidade de executar repetidamente uma mesma sequência de instruções. Em linguagens de programação como JavaScript, temos várias estruturas de repetição à disposição, cada uma com suas próprias características e usos específicos: o **while**, o **do-while** e o **for**. As diferentes estruturas de repetição são semanticamente equivalentes.
+
+O **while** é uma estrutura de repetição que repete um bloco de código enquanto uma condição especificada for verdadeira. Isso significa que o bloco de código dentro do **while** é executado repetidamente enquanto a condição definida for avaliada como verdadeira.
+
+Sintaxe:
+```javascript
+//Enquanto a condição for verdadeira, execute as instruções.
+while ( condição ) {
+// instruções
+}
+```
+
+Exemplo de uso do while em JavaScript:
+```javascript
+let contador = 0;
+while (contador < 5) {
+console.log(""O contador é: "" + contador);
+contador++;
+}
+```
+
+
+
+
+Sintaxe:
+```javascript
+do {
+// instruções
+} while ( condição );
+```
+"" Faça as instruções, Enquanto a condição for verdadeira.""
+
+Exemplos
+
+Execute passo a passo os códigos a seguir:
+
+Repetição simples:
+```javascript
+var x = 10
+var y = 40
+while ( x  3 ) {
+x = y / 3
+y = x + 2
+}
+```
+Ver vídeo com este exemplo: https://youtu.be/iAyJvXtGHDs
+
+Repetição com *loop* infinito:
+```javascript
+var x = 9
+var y = 12
+while ( x  3 ) {
+x = y - 8
+y = x * 3
+}
+```
+Ver vídeo com este exemplo:  https://youtu.be/5nabBOi0rgg
+
+Exemplos
+
+**(Exemplo 1)** Implemente um programa que receba a idade de várias pessoas e informa se cada um delas é menor de idade ou idosa. Para encerrar, o usuário deve digitar a idade -1.
+
+Em problemas de repetição, é preciso os comandos a serem repetidos. Nesta questão as seguintes ações devem ser ressaltadas:
+* Receber a idade da pessoa
+* Verificar se a idade é diferente de -1 (condição de parada)
+* Avisar se é menor de idade ou idosa
+
+Reflexões importantes:
+* Quais as entradas do programa?
+* Idade de uma  pessoa
+* Quais as saídas?
+* Para cada pessoa, “Menor de idade”, “Idosa” ou sem saída.
+* O que deve ser repetido?
+* Verificar se a idade é diferente de -1
+* Avisa se é menor de idade ou idosa
+* Receber a idade
+* Como controlar as repetições?
+* Valor da idade. Se for -1, o programa deve encerrar  (condição de parada)
+
+```javascript
+var idade = parseInt(prompt(""Entre com a idade: ""))
+while ( idade !== -1 ){
+if ( idade  60 ){
+alert(""idoso"")
+}
+if ( idade < 18 ){
+alert(""menor de idade"")
+}
+idade = parseInt(prompt(""Entre com a idade: ""))
+}
+```
+
+**(Exemplo 2)** Implemente um programa que recebe as 3 notas de vários alunos e escreve a média parcial de cada um deles até o usuário digitar -1 para a primeira nota.
+
+Reflexões importantes:
+* Quais as entradas do programa?
+* 3 notas de uma quantidade indefinida de alunos
+* Quais as saídas?
+* Média parcial dos alunos
+* O que deve ser repetido?
+* A leitura das 3 notas
+* O cálculo e a escrita da média parcial
+* Como controlar as repetições?
+* Valor da primeira nota. Se for -1, o programa deve encerrar  (condição de parada)
+
+```javascript
+n1 = parseFloat(prompt(""Entre com a nota 1""))
+while ( n1 != -1 ){
+n2 = parseFloat(prompt(""Entre com a nota 2""))
+n3 = parseFloat(prompt(""Entre com a nota 3""))
+media = (n1 + n2 + n3)/3
+alert(media)
+n1 = parseFloat(prompt(""Entre com a nota 1""))
+}
+```
+
+
+**(Exemplo 3)** Implemente um programa que mostra todos os números de 0 à 100.
+
+```javascript
+x = 0
+while ( x <= 100 ) {
+console.log(x)
+x++
+}
+```
+
+Aplicações
+
+Repetição Simples
+
+Em uma repetição simples, resolvemos um problema específico repetidas vezes
+* Identificar o que vai ser repetido
+* Identificar quando parar
+
+**(Questão 1)** Escreva um programa que recebe e calcula o quadrado de vários números. O programa se encerra quando o usuário digitar 0 (zero).
+
+* O que deve ser repetido?
+* Receber número
+* Calcular e imprimir seu quadrado
+* Quando iremos parar?
+* Quando o programa receber 0 (comando de parada)
+* Logo, enquanto não for 0, o programa deve repetir
+
+Exemplo de solução:
+```javascript
+var x = parseFloat(prompt(""Entre com um número: ""))
+while ( x != 0 ){
+var quadrado = Math.pow(x,2)
+alert(quadrado)
+x = parseFloat(prompt(""Entre com um número: ""))
+}
+```
+
+Validação de dados
+
+O objetivo da validação de dados é garantir que as informações dadas pelo usuário são aceitáveis.
+* Enquanto não forem válidas, o programa pede para o usuário digitar novamente
+
+**(Questão 2)** Implemente um programa que lê um número inteiro referente a um dia do mês de setembro. O programa deve verificar se o valor é válido. Se não for, deve apresentar a mensagem “Dia inválido. Tente novamente.” e então receber outro número. O programa só para quando for digitado um dia válido.
+
+* Quais entradas são válidas
+* Números inteiros no intervalo 1 <= dia <= 30
+* E quais são inválidas?
+* Qualquer número fora do intervalo
+
+Exemplo de solução:
+```javascript
+var dia = parseInt(prompt(""Entre com o dia: ""))
+while (dia < 1 || dia  30 ) {  // dia inválido
+dia = parseInt(prompt(""Dia inválido. Tente novamente: ""))
+}
+```
+Contagem
+
+Uma contagem visa verificar quantas vezes determinado fenômeno ocorre.
+
+**(Questão 3)** Implemente um programa para receber vários números inteiros e contar quantos são múltiplos de 3 ou de 7. O programa deve encerrar quando receber o número 0.
+
+Para resolver problemas de contagem, devemos identificar:
+* Quais os elementos?
+* Qual o fenômeno em observação?
+* Como verificar se o fenômeno ocorre em cada elemento?
+
+Exemplo de solução:
+```javascript
+var n = parseInt(prompt(""Entre com um número: ""))
+var contador = 0
+while ( n != 0 ) {
+if ( n % 3 == 0 || n % 7 == 0 ) {
+contador = contador + 1
+}
+n = parseInt(prompt(""Entre com um novo número: ""))
+}
+alert(contador)
+```
+
+Exercícios
+
+
+Implemente um programa que recebe números inteiros positivos como entrada e para quando o número recebido for 22. O seu programa deve escrever todos os números recebidos, com exceção do 22, separados por espaços. O espaço no final da saída é opcional.
+
+```javascript
+var x = parseFloat(prompt(""Entre com um número: ""));
+while(x != 22) {
+alert(x+"" "");
+x = parseFloat(prompt(""Entre com um número: ""));
+}
+```
+
+Faça um programa que lê a idade de 6 pessoas e diz quantas delas são maiores de 18 anos! Nesse programa você vai precisar criar um segundo contador! O programa precisa de um contador para contar quantas vezes o programa vai repetir. Independente disso, ele vai precisar de um segundo contador para contar quantas vezes foi encontrada uma pessoa com mais de 18 neste grupo. São dois contadores diferentes e portanto duas várias distintas.
+
+
+```javascript
+cont = 0
+contIdade = 0
+while ( cont < 6 ){
+idade = parseInt(prompt(""Entre com a idade: ""))
+if (idade  18 ){
+contIdade++
+}
+cont++
+}
+alert(contIdade)
+```
+
+Faça um programa que leia vários inteiros positivos e mostre, no final, a soma dosnúmeros pares e a soma dos números ímpares. O programa para quando entrar umnúmero maior que 1000.
+
+```javascript
+somaPar = 0
+somaImpar = 0
+n = parseInt(prompt(""Entre com um número: ""))
+while (n <= 1000){
+if (n%2===0){
+somaPar = somaPar + n
+}
+else {
+somaImpar = somaImpar + n
+}
+n = parseInt(prompt(""Entre com um número: ""))
+}
+alert(""Soma dos numeros pares: ""+somaPar+""\nSoma dos numeros impares: ""+somaImpar)
+```
+
+
+"
+O que é repetição contada?,"
+Em programação, muitas vezes precisamos executar um conjunto de instruções várias vezes. Para isso, usamos estruturas de repetição, também conhecidas como laços. Existem dois tipos principais de laços: laços condicionais e laços contados. Vamos explorar esses conceitos de maneira didática para entender como e quando utilizá-los.
+
+Laço Condicional
+Um laço condicional repete um bloco de código enquanto uma determinada condição é verdadeira. Não sabemos de antemão quantas vezes o laço irá se repetir, pois isso depende da condição especificada.
+
+Exemplo com `while`:
+```javascript
+let contador = 0;
+while (contador < 5) {
+console.log(""Contador é:"", contador);
+contador++;
+}
+```
+Neste exemplo, a condição é `contador < 5`. O bloco de código dentro do while será repetido enquanto essa condição for verdadeira. Assim que `contador` se torna 5, a condição não é mais verdadeira e o laço termina.
+
+Características do Laço Condicional:
+* A condição de parada é avaliada a cada iteração.
+* Não é possível prever o número de repetições.
+* Ideal para situações onde a repetição depende de uma condição que pode mudar de forma imprevisível.
+
+
+Laço Contado
+Um laço contado repete um bloco de código um número específico de vezes. Aqui, o número de repetições é conhecido e controlado por um contador.
+
+Exemplo com `for`:
+```javascript
+for (let i = 0; i < 5; i++) {
+console.log(""Valor de i:"", i);
+}
+```
+Neste exemplo, `i` assume valores de 0 a 4, e o bloco de código é executado 5 vezes. Sabemos exatamente quantas vezes o laço irá se repetir.
+
+Por que o `for` é mais adequado para laços contados?
+* Definição clara dos parâmetros: Definimos o valor inicial, o limite e o incremento/decremento. O for calcula automaticamente o número de repetições.
+* Foco no que é importante: Dentro do bloco do for, nos preocupamos apenas com as operações a serem repetidas, sem a necessidade de gerenciar manualmente o contador.
+* Código mais compacto: O for geralmente resulta em menos linhas de código.
+* Legibilidade: O código é mais legível e explícito quanto ao propósito de contar repetições.
+* Redução de erros: Evita esquecer de inicializar, incrementar ou decrementar o contador, o que é comum em laços while.
+
+Entender a diferença entre laços condicionais e contados é essencial para escrever códigos eficientes e claros. Use while quando a repetição depende de uma condição variável e for quando você sabe exatamente quantas vezes precisa repetir o bloco de código. Com a prática, a escolha da estrutura adequada se tornará cada vez mais intuitiva.
+
+Sintaxe
+
+```javascript
+for ( local para inicialização ; local para condição; local para incremento/decremento )
+{
+// Local para as instruções
+}
+```
+O comando for é lido da seguinte forma: ""Para os seguintes valores iniciais, e enquanto a condição for verdadeira, execute as instruções e incremente/decremente.""
+
+Descrevendo as 3 cláusulas:
+* Cláusula de inicialização
+* Executada uma única vez
+* Executada antes do primeiro teste
+* Permite múltiplas inicializações
+* Opcional
+* Cláusula da condição
+* Semelhante à condição do while
+* Obrigatória
+* Cláusula do incremento/decremento
+* Executada sempre após as instruções serem executadas
+* Permite múltiplos incrementos/decrementos
+* Opcional
+
+
+Exemplo 1
+
+Implemente um programa que recebe 15 números reais e calcula seus quadrados.
+* ""Para a quantidade de quadrados calculados, inicialmente zero, e enquanto for menor que 15, receba um número, calcule e imprima seu quadrado e incremente essa quantidade em 1.""
+
+```javascript
+for ( contador = 0; contador < 15; contador++)
+{
+numero = parseFloat(prompt(""Entre com um número:""));
+quadrado = numero * numero;
+alert(""Quadrado: ""+quadrado);
+}
+```
+
+Exercícios - Parte 1
+Determine quais números serão impressos em cada for:
+
+1. for  ( i = 0 ; i < 10 ; i++ ) { alert(i); }
+1. for  ( i = 0 ; i < 100 ; i+=10 ) { alert(i); }
+1. for  ( i = 0 ; i < 100 ; i=i+2 ) { alert(i); }
+1. for  ( i = 10 ; i  0 ; i-- ) { alert(i); }
+1. for  ( i = 101 ; i < 150 ; i+=2 ) { alert(i); }
+1. for  ( i = 1 ; i <= 1024 ; i=i*2 ) { alert(i); }
+
+Executar estes exemplos no ambiente de programação online e analisar as saídas de cada exercício.
+
+Formas variadas de usar o **for**
+Outros usos também válidos do for (embora diferentes)
+* for  ( ; i < 10 ; )
+* for  ( i = 0, j = 0 ; i < 10 ; i++, j++ )
+* for  ( i = 0, k = 0 ; i < 10 || k  -10 ; )
+* for  ( i = 0 ; i != j + k ; i++ )
+* for  ( i = Math.sqrt(j) ; i <= Math.pow(j,3) ; i++ )
+* for  ( i = 0, j = 10, k = -10 ; i < 10 ; i++, j--, k/=2 )
+
+Exercícios - Parte 2
+
+1 - Implemente um programa que escreve os 50 primeiros (rode só com 5):
+* Números naturais
+* Números naturais pares
+* Números quadrados
+
+2 - Implemente um programa que receba a idade de 80 pessoas (rode só com 8) e determina a média da idade das pessoas.
+
+Algoritmos Tradicionais
+Em programação, embora existam vários tipos de problemas, alguns deles são mais frequentes
+* Entender bem e aprender a solução (algoritmo) de cada um deles
+* Identificar as pequenas diferenças de cada problema específico
+
+* Contagem
+* Somatório/Produtório
+* Encontrar o melhor valor
+
+Contador do for
+
+Em problemas de laço contado, usamos uma variável numérica para controlar as repetições:
+* Dizemos que essa variável é o contador do for
+* O número de repetições depende do seu valor inicial, do seu valor limite e do incremento/decremento
+* Seu significado ou uso depende da lógica adotada para cada problema, e de como podemos aproveitar esta variável diretamente no código para obter as saídas
+
+O contador pode ser aplicado com diferentes lógicas de uso:
+
+Exemplo: “Implemente um programa que recebe peso e altura de 100 pessoas, calcula e imprime o IMC de cada uma.”
+
+Qual a lógica do uso do contador em cada for para o problema acima?
+* for ( cont = 0 ; cont < 100 ; cont++ )
+* “quantidade de pessoas cujo IMC já foi calculado”
+* for ( cont = 1 ; cont <= 100 ; cont++ )
+* “número ou ordem da pessoa cujo IMC está sendo calculado”
+* 1ª pessoa, 2ª pessoa, …, 100ª pessoa
+* for ( cont = 100 ; cont  0 ; cont-- )
+* “quantidade de pessoas cujo IMC falta calcular”
+
+
+“Implemente um programa que escreve na tela todos os números entre 300 e 400 (inclusive) que são múltiplos de 8.”
+
+
+Exemplo 2
+
+“Implemente um programa que escreve na tela todos os números entre 300 e 400 (inclusive) que são múltiplos de 8.”
+* O que vai ser repetido?
+* Quantas repetições serão realizadas?
+
+É possível utilizar uma mesma variável para dois papéis  diferentes
+* A variável cont se usa, ao mesmo tempo, para controlar a quantidade de repetições e para ser o número testado
+
+```javascript
+resultado = ""R: ""    //uma variável string pode ser usada para
+//mostrar a saída
+for ( cont = 300; cont <= 400; cont++){
+if ( cont % 8 == 0) {
+resultado = resultado + cont + "" ""
+}
+}
+alert(resultado)
+```
+
+
+Exemplo 3
+
+“Implemente um programa que escreva os  termos da sequência a seguir, iniciando do 10º até o 20º (inclusive).”
+* S = (1/1, 1/3, 1/5, 1/7, 1/9, ...  )
+
+```javascript
+S=""""; //usando string (mas não é obrigatório)
+for ( i = 10; i<= 20; i++){
+termo_i="" 1 /""+(2*i-1)+"", ""
+S =S+ termo_i;
+}
+alert(S);
+```
+
+Somatório
+
+O que entendemos por acumular valores (soma parcial)?
+
+“Implemente um programa que recebe 2 números inteiros A e B. O programa deve acumular/somar o valor de B ao valor de A e imprimir o resultado.”
+
+Acumulador: Adicionar/somar um novo valor a algum valor já existente.
+
+O acúmulo dos valores é a soma parcial dos valores, armazenado em uma mesma variável que já existia, mudando o valor que tinha.
+
+```javascript
+A=A+B;
+alert(A);
+```
+
+Exemplo 4
+
+“Implemente um programa que calcula o somatório de todos os números entre 300 e 400 (inclusive).”
+
+Para resolver problemas de somatório, devemos:
+*  Inicializar uma variável somatório em zero (termo neutro)
+* Calcular cada termo do somatório
+* Obs.: Os números de 300 a 400 formam uma sequência
+* Acumular cada termo do somatório
+* Inicializado com o termo neutro
+* Escrever o resultado
+* Depois de acumular todos os valores
+
+```javascript
+Soma=0;
+for ( i = 300; i<= 400; i++){
+Soma =Soma+i;
+}
+alert(Soma);
+```
+
+Exemplo 5
+Implemente um programa que calcula a soma dos 10 primeiros termos da sequência abaixo:
+* S = (1/1, 1/3, 1/5, 1/7, 1/9, ...  )
+
+Série é a soma dos termos de uma sequência. Podemos reescrever o enunciado do exemplo assim:
+* S=1 + 1/3 + 1/5 + 1/7 + 1/9 + ...
+
+```javascript
+Soma=0;
+for ( i = 1; i<= 10; i++){
+termo_i=1/(2*i-1)
+Soma =Soma+termo_i;
+}
+alert(Soma);
+```
+
+Produtório
+
+“Implemente um programa que recebe um número natural N e calcula N!”
+
+Fatorial
+* O fatorial de N, ou N!, nada mais é que o produtório de N;
+
+Fatorial = 1 * 2 * 3 * ... * N
+
+
+Encontrando o Maior Elemento de uma Sequência com Repetição
+
+Em programação, encontrar o maior (ou menor) elemento de uma sequência de números é uma tarefa comum que pode ser resolvida de forma simples utilizando estruturas de repetição. Vamos aprender como fazer isso usando um algoritmo intuitivo.
+
+Entendendo o Algoritmo
+
+O algoritmo para encontrar o maior elemento de um grupo é bastante intuitivo. Vamos ilustrar isso com um exemplo prático.
+
+**Exemplo:**
+```
+Vou mostrar vários números. Vocês devem me dizer qual é o maior.
+Números: 9, -6, 10, 5, 0, -4, -13, 13, -7, 11
+
+Qual o maior número?
+Resposta: 13
+```
+
+Para encontrar o maior número, seguimos os seguintes passos:
+
+1. **Início com o Trono Vazio**: Imaginamos que temos um trono onde o maior número sentará. No início, o trono está vazio.
+2. **Primeiro Elemento**: O primeiro número vê o trono vazio e senta-se nele.
+3. **Comparação dos Elementos Restantes**: Para cada número seguinte:
+- Comparamos o número atual com o número sentado no trono.
+- Se o número atual for maior, ele toma o lugar no trono.
+4. **Resultado Final**: No final, o número que está no trono é o maior de todos.
+
+Algoritmo em Pseudocódigo
+
+Vamos agora escrever esse processo em forma de algoritmo:
+
+1. O primeiro elemento encontra o trono vazio e senta-se nele.
+2. Para cada elemento restante do grupo:
+- Comparamos com o elemento sentado no trono.
+- Se for maior, este elemento vai para o trono.
+3. Ao final, o elemento no trono é o maior.
+
+Implementação em JavaScript
+
+Vamos implementar este algoritmo em JavaScript para encontrar o maior número de uma sequência.
+
+```javascript
+// Exemplo de números 9, -6, 10, 5, 0, -4, -13, 13, -7 e 11
+
+// Inicialmente, consideramos o primeiro elemento como o maior
+let maior = parseFloat(prompt(""Entre com um número:""));
+
+// Usamos uma estrutura de repetição para comparar os demais elementos
+for (let i = 1; i < numeros.length; i++) {
+numero = parseFloat(prompt(""Entre com um número:""));
+if (numero  maior) {
+maior = numero; // O novo maior número assume o ""trono""
+}
+}
+
+console.log(""O maior número é:"", maior);
+```
+
+**Explicação do Código:**
+- **Inicialização**: A variável `maior` é inicializada com o primeiro número da lista.
+- **Estrutura de Repetição**: Usamos um laço `for` para percorrer todos os elementos restantes da lista.
+- **Comparação e Atualização**: A cada iteração, comparamos o elemento atual com o valor em `maior`. Se o elemento atual for maior, atualizamos `maior` com esse novo valor.
+- **Resultado**: Ao final do laço, a variável `maior` contém o maior número da lista.
+
+O processo de encontrar o maior (ou menor) elemento de uma sequência utilizando repetição é direto e intuitivo. Ao seguir um algoritmo simples e implementá-lo em uma linguagem de programação como JavaScript, podemos resolver esse tipo de problema de forma eficiente e clara.
+
+
+
+
+
+"
+O que é introdução prática sobre algoritmos?,"
+Ferramentas
+* Sistema LoP, https://lop.natalnet.br/
+* Discord, https://discord.com/
+
+Atividades Introdutórias a Lógica de Programação
+Jogos para os programadores de amanhã https://blockly-games.appspot.com/
+
+Jogos do site hora do código:
+* https://hourofcode.com/code
+* https://code.org/minecraft
+* https://hourofcode.com/mchoc
+* https://hourofcode.com/silent
+
+Vídeos Motivacionais
+* Com dedicação, qualquer pessoa pode aprender, vídeo de 2014, https://www.youtube.com/watch?v=ip051U7Rvds
+* Vídeo de code.org de 2013, https://youtu.be/nKIu9yen5nc
+
+
+Trabalhando com JavaScript e Páginas WEB
+
+Primeiro Código em JavaScript
+
+Abrir o navegador e executar o primeiro código em JavaScript:
+```javascript
+alert(""Olá mundo"");
+```
+
+Primeira Página WEB
+
+Usando o editor de sua preferência crie o arquivo **index.html** com o conteúdo a seguir:
+
+```html
+<html
+<head
+<meta charset=""UTF-8""
+</head
+<body
+Minha Primeira Página WEB!
+</body
+</html
+```
+Esta é uma página web muito simples.
+
+Inserindo Código JavaScript
+
+Usando o comando _alert_ na página web para criar a primeira página com JavaScript.
+
+```html
+<html
+<head
+<meta charset=""UTF-8""
+<script alert(""Olá Mundo!"") </script
+</head
+<body
+Página WEB!
+</body
+</html
+```
+Observe que para usar código java script foi necessário usar as tags `<script  </script`:
+```html
+<script alert(""Olá Mundo!"") </script
+```
+
+Separando o código JavaScript do HTML
+Crie um novo arquivo chamado **meu_codigo.js** e coloque o seguinte conteúdo:
+```javascript
+alert(""Olá Mundo!"");
+```
+
+O arquivo **index.html** deve possuir o seguinte conteúdo para ""chamar"" o script **meu_código.js**:
+```html
+<html
+<head
+<meta charset=""UTF-8""
+<script src=""meu_codigo.js""</script
+</head
+<body
+Página WEB!
+</body
+</html
+```
+
+Referências
+
+* Exemplo para baixar e começar a resolver os exercícios, https://github.com/LoP-ECT2203/2017.2/blob/master/html/lab0/exemplo_4.zip
+* Exemplos com os códigos vistos acima [https://github.com/LoP-ECT2203/2017.2/html/lab0](https://github.com/LoP-ECT2203/2017.2/tree/master/html/lab0)
+* Código do _ect.js_ [https://github.com/LoP-ECT2203/2017.2](https://github.com/LoP-ECT2203/2017.2/tree/master/html/lab0/exemplo_4/ect.js)
+* Tutorial HTML, https://www.w3schools.com/html/default.asp"
+O que é o laboratório 1?,"Prática com:
+* Entrada e saída de dados;
+* Operadores aritméticos.
+
+Dia 1: Atividades de treinamento e demonstrações
+
+* [Atividades Práticas na Plataforma LoP](https://lop.natalnet.br) (listas de exercícios):
+* Expressões Aritméticas - Lista Ressolvida (LOP)
+
+Vídeos da Lista Resolvida
+
+* [É preciso praticar muito!](https://youtu.be/SGVvmI232m8)
+* [Introdução a Soma](https://youtu.be/0bEVryfsQtA)
+* [Programa Bom Dia!](https://youtu.be/Jl0Rb4Db7eI)
+* [Calculando expressões - parte 1](https://youtu.be/Xv47XGJW0ww)
+* [Média Ponderada](https://youtu.be/OlkqDmkUrBQ)
+
+Extra:
+* [Outros vídeos](https://www.youtube.com/playlist?list=PLfGOgFSaHKF7xHNtja3bDdmf_Sv6GEP2D)
+* [Funções Aritméticas](https://docs.google.com/presentation/d/18CEr3y0nxRW6m7agx3viJGWOfMU167grxfrmvotMAUk/edit?usp=sharing)
+
+
+Códigos dos Exercícios Resolvidos
+É preciso praticar muito!
+```javascript
+alert(""Eh preciso praticar muito para aprender a programar!"")
+```
+
+Introdução a Soma
+```javascript
+alert( (10 + 13) + "" "" + (125 + 373) + "" ""+ (4235 + 8962))
+```
+
+Programa Bom Dia!
+```javascript
+nome = prompt(""Entre com um nome: "");
+alert(""Bom Dia "" + nome} + ""!"" );
+```
+
+Calculando expressões - parte 1
+```javascript
+a = 1.5
+c = 2
+d = 3
+r = a * (c + d)
+alert(r)
+```
+
+Média Ponderada
+```javascript
+nota1 = parseFloat(prompt(""Nota 1:""))
+nota2 = parseFloat(prompt(""Nota 2:""))
+nota3 = parseFloat(prompt(""Nota 3:""))
+
+media = (nota1*2 + nota2*3 + nota3*5) / 10
+
+alert(media)
+```
+
+Exercícios Extras
+
+Escreva um programa que recebe um número inteiro de horas e imprime o número equivalente em dias. Ex.: 60 horas = 2,5 dias.
+```javascript
+horas = parseInt(prompt(""Entre o número de horas: ""))
+dias = horas/24
+alert(dias)
+```
+
+Escreva um programa que recebe a altura em metros e a massa em quilos de uma pessoa e calcula seu Índice de Massa Corporal (IMC).
+$`IMC = \frac{massa}{altura^2}`$
+```javascript
+altura = parseFloat(prompt(""Entre a altura: ""))
+massa = parseFloat(prompt(""Entre a massa: ""))
+imc = massa / ( altura**2)
+alert(imc)
+```
+
+Dia 2: Prática
+Resolver os exercícios da lista ""Expressões Aritméticas - Lista Prática"" da [Plataforma LoP](https://lop.natalnet.br).
+
+Ordem das questões:
+* Calculando expressões - parte 2
+* Calculando expressões - parte 3
+* Calculando expressões - parte 4
+* Imprimindo uma mensagem com um valor
+* Convertendo de horas para dias
+* Convertendo de metros para polegadas
+* Convertendo pés, jardas e milhas
+* Cálculo do IMC
+* Calculo de expressão com expoente
+* Calculando expressões com raiz
+
+"
+O que é o laboratório 2?,"Prática com:
+* Estruturas condicionais
+* Operadores lógicos
+
+Dia 1: Atividades de treinamento e demonstrações
+* [Atividades Práticas na Plataforma LoP](https://lop.natalnet.br) (listas de exercícios):
+* Estrutura Condicional - Lista Ressolvida (LOP)
+
+Vídeos da Lista Resolvida
+* [Altura acima de média](https://youtu.be/r5EQIPde8T0)
+* [Altura abaixo da média](https://youtu.be/pe40iJmUrMc)
+* [Compara com 10](https://youtu.be/o4ZO5dMkxG0)
+* [Compara com 20](https://youtu.be/n7xOLgd71Io)
+* [O quadrado ou raiz](https://youtu.be/MdZsgg5juTw)
+* [Compara com 20 parte 2](https://youtu.be/Cwn25LIXrvc)
+* [Menor de 3 números](https://youtu.be/2-RVn_UqiPE)
+
+Códigos dos Exercícios Resolvidos
+Altura acima de média
+```javascript
+altura = parseFloat(prompt(""Entre com a altura:""))
+if ( altura  1.73 ) {
+alert(""Acima da media"")
+}
+```
+
+Altura abaixo da média
+```javascript
+altura = parseFloat(prompt(""Entre com uma altura:""))
+if (altura < 1.73 ) {
+alert(""Abaixo da media"")
+}
+```
+
+Compara com 10
+```javascript
+var x;
+x = prompt(""Entre com um número"");
+if ( x == 10 ){
+console.log(""igual"");
+}
+```
+
+Compara com 20
+```javascript
+x = parseFloat(prompt(""Entre com um número:""))
+if ( x = 20 ){
+alert(""maior ou igual"")
+}
+if ( x < 20 ){
+alert(""menor"")
+}
+```
+
+O quadrado ou raiz
+```javascript
+x = parseFloat(prompt(""Entre com um número""))
+if ( x < 0 ) {
+alert( Math.pow(x, 2) )
+}
+else {
+alert( Math.sqrt(x))
+}
+```
+
+Compara com 20 parte 2
+```javascript
+x = parseFloat(prompt(""Entre com um número:""))
+if ( x  20 ){
+alert(""maior"")
+}
+else {
+if ( x < 20 ){
+alert(""menor"")
+}
+else {
+alert(""igual"")
+}
+}
+```
+
+Menor de 3 números
+```javascript
+x = parseFloat(prompt(""Entre com x""))
+y = parseFloat(prompt(""Entre com y""))
+z = parseFloat(prompt(""Entre com z""))
+
+var menor;
+// verifico se x é o menor de todos
+if ( x <= y ){
+if ( x <= z ){
+menor = x;
+}
+}
+// verifico se y é o menor de todos
+if ( y <= x) {
+if ( y <= z ){
+menor = y;
+}
+}
+// verifico se z é o menor de todos
+if (z <= x){
+if ( z <= y) {
+menor = z;
+}
+}
+alert(menor)
+```
+
+
+Exercícios Extras
+Dia 2: Prática
+Resolver os exercícios da lista ""Estrutura Condicional - Lista Prática"" da [Plataforma LoP](https://lop.natalnet.br).
+
+Ordem das questões:
+* Calcular Índice de Massa Corporal (IMC) - parte 1
+* Índice de Massa Corporal (IMC) - parte 2
+* IMC simples com 2 decisões
+* IMC novamente com 2 decisões
+* Encontrando números pares
+* Par ou impar
+* Média com 3 situações de decisão
+* Média com 3 situações de decisão - parte 2
+* Idades e permissões
+* Divisível por 3 e por 4 ao mesmo tempo
+* Categorias de natação
+* Divisível por 3 e por 4 - versão mais complexa
+* Divisível por 3 e por 4 - versão ainda mais complexa"

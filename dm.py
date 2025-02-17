@@ -8,5 +8,8 @@ for modelo in modelos:
     print(f"Baixando {modelo}...")
     subprocess.run(["ollama", "pull", modelo])
 
+# Lista de modelos para baixar
+modelos = ["mistral:7b", "mistral:7b-instruct"]
+
 print("Todos os modelos foram baixados!")
 
