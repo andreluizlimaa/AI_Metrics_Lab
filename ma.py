@@ -9,7 +9,7 @@ from tqdm.auto import tqdm  # usa automaticamente a versão adequada (console ou
 #            "deepseek-r1:14b", "phi3:3.8b", "phi3:14b", "mistral:7b", "mistral-nemo:12b",
 #            "phi4:14b", "gemma2:2b", "gemma2:9b"]
 
-modelos = ["phi3:3.8b"]
+modelos = ["mistral-nemo:12b"]
 
 # Lista de prompts
 prompts = [

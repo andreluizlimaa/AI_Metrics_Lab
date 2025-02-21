@@ -108,3 +108,19 @@ import pandas as pd
 # Carregar o arquivo CSV
 df = pd.read_csv("Data/Data_orivas_csv/dados_concatenados.csv")
 print(df)
+
+#%%
+import pandas as pd
+df = pd.read_csv("Data/Data_aumentation/perguntas_respostas_javascript.csv")
+duplicatas = df[df.duplicated(subset=["Pergunta"], keep="first")]
+print(len(df["Pergunta"]))
+print(len(duplicatas["Pergunta"]))
+duplicatas_limpas = df.drop_duplicates(subset=["Pergunta"], keep="first")
+print(len(duplicatas_limpas["Pergunta"]))
+
+df_limpo = duplicatas_limpas.to_csv("Data/Data_aumentation/data_aumentation_limpo.csv", index=False)
+
+#%%
+df = pd.read_csv("Data/Data_aumentation/data_aumentation_limpo.csv")
+print(len(df["Pergunta"]))
+print(len(df[df.duplicated(subset=["Pergunta"], keep="first")]))

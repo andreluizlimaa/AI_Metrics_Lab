@@ -1,0 +1,10 @@
+2025-02-20 18:00:36,133 - INFO - Loading context from Data/Data_orivas_csv/dados_concatenados.csv
+2025-02-20 18:00:36,145 - DEBUG - Context created with 5 QA pairs
+2025-02-20 18:00:36,156 - DEBUG - Sending request to Ollama
+2025-02-20 18:00:36,159 - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-02-20 18:00:36,164 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001A73562BF50>
+2025-02-20 18:00:36,164 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-20 18:00:36,165 - DEBUG - send_request_headers.complete
+2025-02-20 18:00:36,165 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-20 18:00:36,165 - DEBUG - send_request_body.complete
+2025-02-20 18:00:36,165 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
