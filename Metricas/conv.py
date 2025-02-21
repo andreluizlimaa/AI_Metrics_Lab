@@ -111,16 +111,66 @@ print(df)
 
 #%%
 import pandas as pd
-df = pd.read_csv("Data/Data_aumentation/perguntas_respostas_javascript.csv")
+df = pd.read_csv("Data\Data_augmentation\pares_qa4.csv")
 duplicatas = df[df.duplicated(subset=["Pergunta"], keep="first")]
 print(len(df["Pergunta"]))
 print(len(duplicatas["Pergunta"]))
 duplicatas_limpas = df.drop_duplicates(subset=["Pergunta"], keep="first")
 print(len(duplicatas_limpas["Pergunta"]))
 
-df_limpo = duplicatas_limpas.to_csv("Data/Data_aumentation/data_aumentation_limpo.csv", index=False)
+caminho_novo = "Data/Data_augmentation/pares_qa4_limpo.csv"
+
+if len(duplicatas["Pergunta"]) > 0:
+    df_limpo = duplicatas_limpas.to_csv({caminho_novo}, index=False)
 
 #%%
-df = pd.read_csv("Data/Data_aumentation/data_aumentation_limpo.csv")
-print(len(df["Pergunta"]))
-print(len(df[df.duplicated(subset=["Pergunta"], keep="first")]))
+import pandas as pd
+
+def process_csv_files(file_path):
+    """
+    Lê o arquivo CSV e realiza o processamento necessário.
+    
+    Args:
+        file_path (str): Caminho para o arquivo CSV
+    
+    Returns:
+        pandas.DataFrame: DataFrame processado
+    """
+    # Lê o arquivo CSV
+    df = pd.read_csv(file_path)
+    
+    # Remove duplicatas se houver
+    df = df.drop_duplicates()
+    
+    # Retorna o DataFrame processado
+    return df
+
+# Lendo os arquivos
+df1 = process_csv_files("Data/Data_augmentation/pares_qa.csv")
+df2 = process_csv_files("Data/Data_augmentation/pares_qa2_limpo.csv")
+df3 = process_csv_files("Data/Data_augmentation/pares_qa3.csv")
+df4 = process_csv_files("Data/Data_augmentation/pares_qa4.csv")
+
+# Concatenando os DataFrames verticalmente
+df_combined = pd.concat([df1, df2, df3, df4], ignore_index=True)
+print("🗑️ Quantidade de linhas antes da limpeza:", len(df_combined), "\n")
+# Contando duplicatas antes da limpeza
+num_duplicatas = df_combined.duplicated(subset=["Pergunta"]).sum()
+print("🧲 Quantidade de linhas duplicatas:", num_duplicatas)
+
+# Removendo duplicatas
+if num_duplicatas > 0:
+    df_combined_limpo = df_combined.drop_duplicates(subset=["Pergunta"], keep="first")
+    print("✅ Quantidade de linhas após remover duplicatas:", len(df_combined_limpo))
+    # Salvando o resultado
+    # df_combined_limpo.to_csv('avaliacoes_combinadas.csv', index=False)
+else:
+    print("Não há duplicatas.")
+    df_combined_limpo = df_combined
+
+# Imprimindo informações sobre o resultado
+print("\nColunas presentes no arquivo:")
+for col in df_combined_limpo.columns:
+    print(f"- {col}")
+
+
