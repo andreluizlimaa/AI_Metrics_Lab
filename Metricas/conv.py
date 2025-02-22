@@ -145,14 +145,20 @@ def process_csv_files(file_path):
     # Retorna o DataFrame processado
     return df
 
-# Lendo os arquivos
-df1 = process_csv_files("Data/Data_augmentation/pares_qa.csv")
-df2 = process_csv_files("Data/Data_augmentation/pares_qa2_limpo.csv")
-df3 = process_csv_files("Data/Data_augmentation/pares_qa3.csv")
-df4 = process_csv_files("Data/Data_augmentation/pares_qa4.csv")
+# Lista de arquivos CSV
+csv_files = [
+    "../Data/Data_augmentation/pares_qa.csv",
+    "../Data/Data_augmentation/pares_qa2_limpo.csv",
+    "../Data/Data_augmentation/pares_qa3.csv",
+    "../Data/Data_augmentation/pares_qa4.csv",
+    "../Data/Data_augmentation/perguntas_respostas_javascript.csv"
+]
+
+# Usando uma list comprehension para processar todos os arquivos CSV
+df_list = [process_csv_files(file) for file in csv_files]
 
 # Concatenando os DataFrames verticalmente
-df_combined = pd.concat([df1, df2, df3, df4], ignore_index=True)
+df_combined = pd.concat(df_list, ignore_index=True)
 print("🗑️ Quantidade de linhas antes da limpeza:", len(df_combined), "\n")
 # Contando duplicatas antes da limpeza
 num_duplicatas = df_combined.duplicated(subset=["Pergunta"]).sum()
@@ -161,16 +167,22 @@ print("🧲 Quantidade de linhas duplicatas:", num_duplicatas)
 # Removendo duplicatas
 if num_duplicatas > 0:
     df_combined_limpo = df_combined.drop_duplicates(subset=["Pergunta"], keep="first")
-    print("✅ Quantidade de linhas após remover duplicatas:", len(df_combined_limpo))
-    # Salvando o resultado
-    # df_combined_limpo.to_csv('avaliacoes_combinadas.csv', index=False)
+    print("🧹 Quantidade de linhas após remover duplicatas:", len(df_combined_limpo))
+    #Salvando o resultado
+    print("✅ Salvando o resultado em 'avaliacoes_combinadas.csv'...")
+    df_combined_limpo.to_csv('../Data/Data_augmentation/avaliacoes_combinadas.csv', index=False)
 else:
     print("Não há duplicatas.")
     df_combined_limpo = df_combined
 
 # Imprimindo informações sobre o resultado
 print("\nColunas presentes no arquivo:")
+print(df_combined_limpo.shape)
 for col in df_combined_limpo.columns:
     print(f"- {col}")
 
-
+#%%
+import pandas as pd
+# Carregando o arquivo CSV
+df = pd.read_csv("../Data/Data_augmentation/avaliacoes_combinadas.csv")
+print(df["Pergunta"])
