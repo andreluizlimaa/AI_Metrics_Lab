@@ -1,9 +1,10 @@
+#%%
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Ler o arquivo Excel
-df = pd.read_csv('dados_transposto.csv')
+df = pd.read_csv("..\Data\Avaliação_modelos\dados_transposto.csv")
 
 # Converter todas as colunas numéricas para float, exceto 'Perguntas'
 numeric_columns = df.columns.drop('Perguntas')

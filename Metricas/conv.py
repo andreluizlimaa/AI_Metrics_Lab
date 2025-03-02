@@ -186,3 +186,8 @@ import pandas as pd
 # Carregando o arquivo CSV
 df = pd.read_csv("../Data/Data_augmentation/avaliacoes_combinadas.csv")
 print(df["Pergunta"])
+#%%
+import pandas as pd
+# Carregando o arquivo CSV
+df = pd.read_csv("../Data/Data_augmentation/avaliacoes_combinadas.csv")
+print(df["Pergunta"])

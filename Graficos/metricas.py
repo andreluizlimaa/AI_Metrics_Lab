@@ -39,35 +39,30 @@ def analyze_model_metrics(csv_path):
     # Remover linhas com valores NaN
     valid_metrics = metrics_df.dropna(subset=['Parâmetros'])
     
-    # Plotting
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 7))
-    
     # Gráfico 1: Barras de Acurácia
-    barplot = sns.barplot(data=metrics_df, x='Modelo', y='Acurácia', ax=ax1, palette='Set3')
-    ax1.set_title("Acurácia por Modelo", pad=20, fontsize=14)
-    ax1.set_ylabel("Acurácia (%)", fontsize=12)
-    ax1.set_xlabel("Modelo", fontsize=12)
-    plt.setp(ax1.get_xticklabels(), rotation=45, ha='right')
+    plt.figure(figsize=(12, 7))
+    barplot = sns.barplot(data=metrics_df, x='Modelo', y='Acurácia', palette='Set3')
+    plt.title("Acurácia por Modelo", pad=20, fontsize=14)
+    plt.ylabel("Acurácia (%)", fontsize=12)
+    plt.xlabel("Modelo", fontsize=12)
+    plt.xticks(rotation=45, ha='right')
     
     # Adicionar valores nas barras
     for i, v in enumerate(metrics_df['Acurácia']):
-        ax1.text(i, v + 1, f'{v:.1f}%', ha='center', va='bottom')
+        plt.text(i, v + 1, f'{v:.1f}%', ha='center', va='bottom')
+    
+    plt.tight_layout()
+    plt.savefig("../Data/img/acuracia_por_modelo.png")
+    plt.show()
     
     # Gráfico 2: Dispersão Acurácia vs Parâmetros com cores diferentes
+    plt.figure(figsize=(12, 7))
     colors = plt.cm.Set3(np.linspace(0, 1, len(valid_metrics)))
     
     # Plotar apenas pontos válidos
     for i, (idx, row) in enumerate(valid_metrics.iterrows()):
-        ax2.scatter(row['Parâmetros'], row['Acurácia'], 
+        plt.scatter(row['Parâmetros'], row['Acurácia'], 
                    color=colors[i], s=100, label=row['Modelo'])
-        
-        # # Adicionar labels com offset alternado
-        # offset_y = 2 if i % 2 == 0 else -2
-        # ax2.annotate(row['Modelo'],
-        #             (row['Parâmetros'], row['Acurácia']),
-        #             xytext=(5, offset_y),
-        #             textcoords='offset points',
-        #             fontsize=10)
     
     # Adicionar linha de tendência
     if len(valid_metrics) > 1:
@@ -75,16 +70,17 @@ def analyze_model_metrics(csv_path):
         p = np.poly1d(z)
         x_range = np.linspace(valid_metrics['Parâmetros'].min(), 
                             valid_metrics['Parâmetros'].max(), 100)
-        ax2.plot(x_range, p(x_range), "r--", alpha=0.8, label='Linha de Tendência')
+        plt.plot(x_range, p(x_range), "r--", alpha=0.8, label='Linha de Tendência')
     
-    ax2.set_title("Acurácia vs Número de Parâmetros", pad=20, fontsize=14)
-    ax2.set_xlabel("Número de Parâmetros (bilhões)", fontsize=12)
-    ax2.set_ylabel("Acurácia (%)", fontsize=12)
-    ax2.grid(True, linestyle='--', alpha=0.7)
-    ax2.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.title("Acurácia vs Número de Parâmetros", pad=20, fontsize=14)
+    plt.xlabel("Número de Parâmetros (bilhões)", fontsize=12)
+    plt.ylabel("Acurácia (%)", fontsize=12)
+    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
     
-    # Ajustar layout
     plt.tight_layout()
+    plt.savefig("../Data/img/acuracia_vs_parametros.png")
+    plt.show()
     
     # Calcular estatísticas
     stats_summary = {
@@ -104,8 +100,7 @@ def analyze_model_metrics(csv_path):
 
 # Exemplo de uso
 if __name__ == "__main__":
-    metrics, stats = analyze_model_metrics('Verificação_da_acertividade_dos_modelos.csv')
-    plt.show()
+    metrics, stats = analyze_model_metrics("..\Data\Data_csv\Verificação_da_acertividade_dos_modelos.csv")
     
     print("\nEstatísticas Resumidas:")
     print(f"Acurácia Média: {stats['acuracia_media']:.2f}%")
@@ -114,5 +109,3 @@ if __name__ == "__main__":
     print(f"Pior Modelo: {stats['pior_modelo']} ({stats['pior_acuracia']:.2f}%)")
     if 'correlacao_params_acuracia' in stats:
         print(f"Correlação entre Parâmetros e Acurácia: {stats['correlacao_params_acuracia']:.3f}")
-
-
