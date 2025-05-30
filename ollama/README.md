@@ -1,0 +1,1 @@
+O seguinte teste é referenta ao uso do histórico de mensagens do Ollama quando usando a partir da biblioteca Langchain.
